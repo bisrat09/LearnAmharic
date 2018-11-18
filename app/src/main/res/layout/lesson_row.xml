@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/englishTv"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:text="english"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/amharicTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="5dp"
+        android:text="amharic"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:textSize="16sp" />
+
+   <!--<TextView
+        android:id="@+id/transliterationTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/englishTv"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="transliteration"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:textSize="16sp" />-->
+
+    <ImageView
+        android:id="@+id/speakerIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginEnd="5dp"
+        app:srcCompat="@drawable/speaker_green" />
+
+</RelativeLayout>
+
+
+

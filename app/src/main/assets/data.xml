@@ -1,0 +1,3247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sentences>
+
+    <lesson id="1">
+        <sentence id="1" >
+            <english>Good Morning(male)</english>
+            <amharic>እንደምን አደርክ</amharic>
+            <transliteration>endemin aderk</transliteration>
+        </sentence>
+        <sentence id="2">
+            <english>Good Morning(female)</english>
+            <amharic>እንደምን አደርሽ</amharic>
+            <transliteration>endemin aderish</transliteration>
+        </sentence>
+        <sentence id="3">
+            <english>Good Morning(plural)</english>
+            <amharic>እንደምን አደራችሁ </amharic>
+            <transliteration>endemin aderachu</transliteration>
+        </sentence>
+        <sentence id="4">
+            <english>Good Afternoon(male)</english>
+            <amharic>እንደምን ዋልክ </amharic>
+            <transliteration>endemin walik</transliteration>
+        </sentence>
+        <sentence id="5">
+            <english>Good Afternoon(female)</english>
+            <amharic>እንደምን ዋልሽ </amharic>
+            <transliteration>endemin walish</transliteration>
+        </sentence>
+        <sentence id="6">
+            <english>Good Afternoon(plural)</english>
+            <amharic>እንደምን ዋላችሁ </amharic>
+            <transliteration>endemin walachihu</transliteration>
+        </sentence>
+        <sentence id="7">
+            <english>Good evening(male)</english>
+            <amharic>እንደምን አመሸህ </amharic>
+            <transliteration>endemin amesheh</transliteration>
+        </sentence>
+        <sentence id="8">
+            <english>Good evening(female)</english>
+            <amharic>እንደምን አመሸሽ</amharic>
+            <transliteration>endemin ameshesh</transliteration>
+        </sentence>
+        <sentence id="9">
+            <english>Good evening(plural)</english>
+            <amharic>እንደምን አመሻችሁ</amharic>
+            <transliteration>endemin ameshachihu</transliteration>
+        </sentence>
+        <sentence id="10">
+            <english>what is your name?(male)</english>
+            <amharic>ስምህ ማን ነዉ</amharic>
+            <transliteration>semeh man naw</transliteration>
+        </sentence>
+        <sentence id="11">
+            <english>what is your name?(female)</english>
+            <amharic>ስምሽ ማን ነዉ</amharic>
+            <transliteration>semesh man naw</transliteration>
+        </sentence>
+        <sentence id="12">
+            <english>My name is</english>
+            <amharic>ስሜ</amharic>
+            <transliteration>semea</transliteration>
+        </sentence>
+        <sentence id="13">
+            <english>Hello</english>
+            <amharic>ሠላም</amharic>
+            <transliteration>selam</transliteration>
+        </sentence>
+        <sentence id="14">
+            <english>when did you come?(male)</english>
+            <amharic>መቼ መጣህ</amharic>
+            <transliteration>meche metahe</transliteration>
+        </sentence>
+        <sentence id="15">
+            <english>when did you come?(female)</english>
+            <amharic>መቼ መጣሽ</amharic>
+            <transliteration>meche metashe</transliteration>
+        </sentence>
+        <sentence id="16">
+            <english>when did you come?(plural)</english>
+            <amharic>መቼ መጣችሁ</amharic>
+            <transliteration>meche metachihu</transliteration>
+        </sentence>
+        <sentence id="17">
+            <english>It has been a week</english>
+            <amharic>ሣምንት ሆኖኛል</amharic>
+            <transliteration>samint honognal</transliteration>
+        </sentence>
+        <sentence id="18">
+            <english>It has been a while</english>
+            <amharic>ቆይቻለሁ</amharic>
+            <transliteration>koyichalehu</transliteration>
+        </sentence>
+        <sentence id="19">
+            <english>How are you?(male)</english>
+            <amharic>እንዴት ነህ</amharic>
+            <transliteration>endet neh</transliteration>
+        </sentence>
+        <sentence id="20">
+            <english>How are you?(female)</english>
+            <amharic>እንዴት ነሽ</amharic>
+            <transliteration>endet nesh</transliteration>
+        </sentence>
+        <sentence id="21">
+            <english>How are you?(plural)</english>
+            <amharic>እንዴት ናችሁ</amharic>
+            <transliteration>endet nachihu</transliteration>
+        </sentence>
+        <sentence id="22">
+            <english>Fine.How about you?(male)</english>
+            <amharic>ደሕና ነኝ፣አንተስ?</amharic>
+            <transliteration>dehina,anetes</transliteration>
+        </sentence>
+        <sentence id="23">
+            <english>Fine.How about you?(female)</english>
+            <amharic>ደሕና ነኝ፣አንአንቺስ?</amharic>
+            <transliteration>dehina,anchis</transliteration>
+        </sentence>
+        <sentence id="24">
+            <english>Fine.How about you?(plural)</english>
+            <amharic>ደሕና ነኝ፣እናንተስ?</amharic>
+            <transliteration>dehina,enantes</transliteration>
+        </sentence>
+        <sentence id="25">
+            <english>I am not well</english>
+            <amharic>ደሕና አይደለሁም</amharic>
+            <transliteration>dehina aydelehum</transliteration>
+        </sentence>
+        <sentence id="26">
+            <english>See you later</english>
+            <amharic>በኋላ እንገናኝ </amharic>
+            <transliteration>behuwala enegenagn</transliteration>
+        </sentence>
+        <sentence id="27">
+            <english>Good Bye(male)</english>
+            <amharic>ደህና ሁን</amharic>
+            <transliteration>dehena hune</transliteration>
+        </sentence>
+        <sentence id="28">
+            <english>Good Bye(female)</english>
+            <amharic>ደህና ሁኚ</amharic>
+            <transliteration>dehena hugnie</transliteration>
+        </sentence>
+        <sentence id="29">
+            <english>Good Bye(plural)</english>
+            <amharic>ደህና ሁኑ</amharic>
+            <transliteration>dehena hunu</transliteration>
+        </sentence>
+        <sentence id="30">
+            <english>I am going now</english>
+            <amharic>ልሄድ ነዉ</amharic>
+            <transliteration>lehead naw</transliteration>
+        </sentence>
+        <sentence id="31">
+            <english> Do you want to come?(male)</english>
+            <amharic>መምጣት ትፈልጋለህ?</amharic>
+            <transliteration>memitat tifeligaleh</transliteration>
+        </sentence>
+        <sentence id="32">
+            <english>Do you want to come?(female)</english>
+            <amharic>መምጣት ትፈልጊያለሽ?</amharic>
+            <transliteration>memtat tifeligiyalesh</transliteration>
+        </sentence>
+        <sentence id="33">
+            <english>you wanna come?(plural)</english>
+            <amharic>መምጣት ትፈልጋላችሁ?</amharic>
+            <transliteration>memtat tifeligalacihu</transliteration>
+        </sentence>
+        <sentence id="34">
+            <english>I will be back</english>
+            <amharic>እመለሣለሁ</amharic>
+            <transliteration>emelesalehu</transliteration>
+        </sentence>
+        <sentence id="35">
+            <english>will you be back?</english>
+            <amharic>እመለሣለሁ</amharic>
+            <transliteration>timelesaleh</transliteration>
+        </sentence>
+
+        <sentence id="36">
+            <english>Okay</english>
+            <amharic>እሺ</amharic>
+            <transliteration>eeshi</transliteration>
+        </sentence>
+
+        <sentence id="37">
+            <english>Fine</english>
+            <amharic>ደህና</amharic>
+            <transliteration>deh na</transliteration>
+        </sentence>
+
+        <sentence id="38">
+            <english>welcome(male)</english>
+            <amharic>እንዃን ደህና መጣህ</amharic>
+            <transliteration>Inkwahn dehna mehtah</transliteration>
+        </sentence>
+
+        <sentence id="39">
+            <english>welcome(female)</english>
+            <amharic>እንዃን ደህና መጣሽ</amharic>
+            <transliteration>Inkwahn dehnamehTash</transliteration>
+        </sentence>
+
+
+        <sentence id="40">
+            <english>welcome(plural)</english>
+            <amharic>እንዃን ደህና መጣችሁ</amharic>
+            <transliteration>Inkwahn dehna mehTachehu</transliteration>
+        </sentence>
+
+        <sentence id="41">
+            <english>Thank you</english>
+            <amharic>አመሠግናለሁ</amharic>
+            <transliteration>ah mesegin alhu </transliteration>
+        </sentence>
+
+        <sentence id="42">
+            <english>Please(male)</english>
+            <amharic>እባክህ</amharic>
+            <transliteration>ih bakeh</transliteration>
+        </sentence>
+
+        <sentence id="43">
+            <english>Please(female)</english>
+            <amharic>እባክሽ</amharic>
+            <transliteration>ih bakesh</transliteration>
+        </sentence>
+
+        <sentence id="44">
+            <english>Please(plural)</english>
+            <amharic>እባካችሁ</amharic>
+            <transliteration>ih bakachehu</transliteration>
+        </sentence>
+
+        <sentence id="45">
+            <english>excuse me</english>
+            <amharic>ይቅርታ</amharic>
+            <transliteration>yikirta</transliteration>
+        </sentence>
+
+        <sentence id="46">
+            <english>Do you speak english?(male)</english>
+            <amharic>እንግሊዘኛ ትናገራለህ?</amharic>
+            <transliteration>inglizegna tinageraleh</transliteration>
+        </sentence>
+
+        <sentence id="47">
+            <english>Do you speak english?(female)</english>
+            <amharic>እንግሊዘኛ ትናገሪያለሽ?</amharic>
+            <transliteration>inglizegna tinageriyalesh</transliteration>
+        </sentence>
+
+        <sentence id="48">
+            <english>Do you speak english?(plural)</english>
+            <amharic>እንግሊዘኛ ትናገራላችሁ?</amharic>
+            <transliteration>inglizegna tinageralachu</transliteration>
+        </sentence>
+
+        <sentence id="49">
+            <english>I speak english</english>
+            <amharic>እንግሊዘኛ እናገራለሁ</amharic>
+            <transliteration>inglizegna inageralehu</transliteration>
+        </sentence>
+
+        <sentence id="50">
+            <english>I speak some Amharic</english>
+            <amharic>ትንሽ አማርኛ እናገራለሁ</amharic>
+            <transliteration>tinish amarigna inageralehu</transliteration>
+        </sentence>
+
+        <sentence id="51">
+            <english>I am from</english>
+            <amharic>የመጣሁት ከ</amharic>
+            <transliteration>yemetahut ke </transliteration>
+        </sentence>
+    </lesson>
+    <!--**********end of lesson1****************************************************-->
+
+    <lesson id="2">
+        <sentence id="52">
+            <english>How is it?</english>
+            <amharic>እንዴት ነዉ?</amharic>
+            <transliteration>endet now</transliteration>
+        </sentence>
+
+        <sentence id="53">
+            <english>I am sorry/pardon me</english>
+            <amharic>ይቅርታ አድርጉልኝ</amharic>
+            <transliteration>yikirta adirgulegn</transliteration>
+        </sentence>
+
+        <sentence id="54">
+            <english>I beg your pardon </english>
+            <amharic>ይቅርታ እጠይቃለሁ </amharic>
+            <transliteration>yikirta iteyikalehu</transliteration>
+        </sentence>
+
+        <sentence id="55">
+            <english>welcome </english>
+            <amharic>እንኳን በሰላም መጡ</amharic>
+            <transliteration>enquan beselam metu</transliteration>
+        </sentence>
+
+        <sentence id="56">
+            <english>you came(male)</english>
+            <amharic>መጣህ</amharic>
+            <transliteration>metah</transliteration>
+        </sentence>
+
+        <sentence id="57">
+            <english>you came(female)</english>
+            <amharic>መጣሽ</amharic>
+            <transliteration>metash</transliteration>
+        </sentence>
+
+        <sentence id="58">
+            <english>you came(plural)</english>
+            <amharic>መጣችሁ</amharic>
+            <transliteration>metachihu</transliteration>
+        </sentence>
+
+        <sentence id="59">
+            <english>I am glad </english>
+            <amharic>ደስ ብሎኛል</amharic>
+            <transliteration>des bilognal</transliteration>
+        </sentence>
+
+        <sentence id="60">
+            <english>are you okay/well?(male) </english>
+            <amharic>ደህና ነህ?</amharic>
+            <transliteration>dehina neh </transliteration>
+        </sentence>
+
+        <sentence id="61">
+            <english>are you okay/well?(female) </english>
+            <amharic>ደህና ነሽ?</amharic>
+            <transliteration>dehina nesh </transliteration>
+        </sentence>
+
+        <sentence id="62">
+            <english>are you okay/well?(plural) </english>
+            <amharic>ደህና ናችሁ?</amharic>
+            <transliteration>dehina nachihu</transliteration>
+        </sentence>
+
+        <sentence id="63">
+            <english>I am okay</english>
+            <amharic>ደህና ነኝ</amharic>
+            <transliteration>dehina negn</transliteration>
+        </sentence>
+
+
+        <sentence id="64">
+            <english>I am not in hurry </english>
+            <amharic>አልቸኩልም</amharic>
+            <transliteration>alchekulim</transliteration>
+        </sentence>
+
+        <sentence id="65">
+            <english>I am in hurry </english>
+            <amharic>እቸኩላለሁ</amharic>
+            <transliteration>echekulalehu</transliteration>
+        </sentence>
+
+        <sentence id="66">
+            <english> As soon as possible</english>
+            <amharic>በተቻለ ፍጥነት</amharic>
+            <transliteration>betechale fitnet</transliteration>
+        </sentence>
+
+        <sentence id="67">
+            <english> if possible</english>
+            <amharic>ከተቻለ</amharic>
+            <transliteration>ketechale</transliteration>
+        </sentence>
+
+        <sentence id="68">
+            <english> it is urgent</english>
+            <amharic>አስቸኳይ ነዉ</amharic>
+            <transliteration>aschequay now</transliteration>
+        </sentence>
+
+
+        <sentence id="69">
+            <english> come here(male)</english>
+            <amharic>እዚህ ና</amharic>
+            <transliteration>ezih na</transliteration>
+        </sentence>
+
+        <sentence id="70">
+            <english> come here(female)</english>
+            <amharic>እዚህ ነይ</amharic>
+            <transliteration>ezih ney</transliteration>
+        </sentence>
+
+        <sentence id="71">
+            <english> come here(plural)</english>
+            <amharic>እዚህ ኑ</amharic>
+            <transliteration>ezih nu</transliteration>
+        </sentence>
+
+        <sentence id="72">
+            <english> I am looking for</english>
+            <amharic>እኔ የምፈልገዉ</amharic>
+            <transliteration>enae yemifelgew</transliteration>
+        </sentence>
+
+        <sentence id="73">
+            <english>over there</english>
+            <amharic>እዚያ ጋ</amharic>
+            <transliteration>izya ga</transliteration>
+        </sentence>
+
+        <sentence id="74">
+            <english>over here(female)</english>
+            <amharic>እዚህ ጋ</amharic>
+            <transliteration>izih ga</transliteration>
+        </sentence>
+
+        <sentence id="75">
+            <english>somewhere</english>
+            <amharic>አንድ ቦታ</amharic>
+            <transliteration>ānid bota</transliteration>
+        </sentence>
+
+        <sentence id="76">
+            <english>I am tired </english>
+            <amharic>ደክሞኛል</amharic>
+            <transliteration>dekimognal</transliteration>
+        </sentence>
+
+        <sentence id="77">
+            <english>I am sad </english>
+            <amharic>አዝኛለሁ</amharic>
+            <transliteration>azignalehu</transliteration>
+        </sentence>
+
+        <sentence id="78">
+            <english>I am happy </english>
+            <amharic>ደስ ብሎኛል</amharic>
+            <transliteration>des bilognal</transliteration>
+        </sentence>
+
+        <sentence id="79">
+            <english>please sit down / Have a sit</english>
+            <amharic>እባክዎን ይቀመጡ</amharic>
+            <transliteration>ebakwon yikemetu</transliteration>
+        </sentence>
+
+        <sentence id="80">
+            <english>No Smoking</english>
+            <amharic>ማጨስ ክልክል ነዉ</amharic>
+            <transliteration>machess kilkil now</transliteration>
+        </sentence>
+
+        <sentence id="81">
+            <english>Do you understand?(male)</english>
+            <amharic>ገባህ?</amharic>
+            <transliteration>gebah</transliteration>
+        </sentence>
+
+        <sentence id="82">
+            <english>Do you understand?(female)</english>
+            <amharic>ገባሽ?</amharic>
+            <transliteration>gebash</transliteration>
+        </sentence>
+
+        <sentence id="83">
+            <english>Do you understand?(plural)</english>
+            <amharic>ገባችሁ?</amharic>
+            <transliteration>gebachihu</transliteration>
+        </sentence>
+
+        <sentence id="84">
+            <english> keep quiet/silence </english>
+            <amharic>ፀጥታ</amharic>
+            <transliteration>tsetita</transliteration>
+        </sentence>
+
+        <sentence id="85">
+            <english>I need help</english>
+            <amharic>እርዳታ እፈልጋለሁ</amharic>
+            <transliteration>irdata efeligalehu</transliteration>
+        </sentence>
+
+        <sentence id="86">
+            <english> help me </english>
+            <amharic>እርዱኝ</amharic>
+            <transliteration>irdugn</transliteration>
+        </sentence>
+
+        <sentence id="87">
+            <english>Where have you been?(male)</english>
+            <amharic>የት ነበርክ?</amharic>
+            <transliteration>yet neberik</transliteration>
+        </sentence>
+
+        <sentence id="88">
+            <english>Where have you been?(female)</english>
+            <amharic>የት ነበርሽ?</amharic>
+            <transliteration>yet neberish</transliteration>
+        </sentence>
+
+        <sentence id="89">
+            <english>Where have you been?(plural)</english>
+            <amharic>የት ነበራችሁ?</amharic>
+            <transliteration>yet neberik</transliteration>
+        </sentence>
+
+        <sentence id="90">
+            <english>Where have you going?(male)</english>
+            <amharic>የት እየሄድህ ነዉ?</amharic>
+            <transliteration>yet iyeheadik now</transliteration>
+        </sentence>
+
+        <sentence id="91">
+            <english>Where are you going?(female)</english>
+            <amharic>የት እየሄድሽ ነዉ?</amharic>
+            <transliteration>yet iyeheadish now</transliteration>
+        </sentence>
+
+        <sentence id="92">
+            <english>Where are you going?(plural)</english>
+            <amharic>የት እየሄዳችሁ ነዉ?</amharic>
+            <transliteration>yet iyeheadchihu now</transliteration>
+        </sentence>
+
+    </lesson>
+    <!--***********end of useful expressions*********************************************-->
+
+    <lesson id="3">
+        <sentence id="93">
+            <english>Zero</english>
+            <amharic>ዜሮ</amharic>
+            <transliteration>zero</transliteration>
+        </sentence>
+
+        <sentence id="94">
+            <english>One</english>
+            <amharic>አንድ</amharic>
+            <transliteration>ānid</transliteration>
+        </sentence>
+
+        <sentence id="95">
+            <english>Two</english>
+            <amharic>ሁሉት</amharic>
+            <transliteration>hulet</transliteration>
+        </sentence>
+
+        <sentence id="96">
+            <english>Three</english>
+            <amharic>ሶስት</amharic>
+            <transliteration>sost</transliteration>
+        </sentence>
+
+        <sentence id="97">
+            <english>Four</english>
+            <amharic>አራት</amharic>
+            <transliteration>arat</transliteration>
+        </sentence>
+        <sentence id="98">
+            <english>Five</english>
+            <amharic>አምስት</amharic>
+            <transliteration>amest</transliteration>
+        </sentence>
+
+        <sentence id="99">
+            <english>Six</english>
+            <amharic>ስድስት</amharic>
+            <transliteration>sedist</transliteration>
+        </sentence>
+
+
+
+        <sentence id="100">
+            <english>Seven</english>
+            <amharic>ሰባት</amharic>
+            <transliteration>sebat</transliteration>
+        </sentence>
+
+        <sentence id="101">
+            <english>Eight</english>
+            <amharic>ስምንት</amharic>
+            <transliteration>Semint</transliteration>
+        </sentence>
+
+        <sentence id="102">
+            <english>Nine</english>
+            <amharic>ዘጠኝ</amharic>
+            <transliteration>Nayin</transliteration>
+        </sentence>
+
+        <sentence id="103">
+            <english>Ten</english>
+            <amharic>አስር</amharic>
+            <transliteration>Asir</transliteration>
+        </sentence>
+
+        <sentence id="104">
+            <english>Twenty</english>
+            <amharic>ሃያ</amharic>
+            <transliteration>Haya</transliteration>
+        </sentence>
+
+        <sentence id="105">
+            <english>Thirty</english>
+            <amharic>ሰላሣ</amharic>
+            <transliteration>selasa</transliteration>
+        </sentence>
+
+        <sentence id="106">
+            <english>Fourty</english>
+            <amharic>አርባ</amharic>
+            <transliteration>arba</transliteration>
+        </sentence>
+
+        <sentence id="107">
+            <english>Fifty</english>
+            <amharic>ሃምሳ</amharic>
+            <transliteration>Hamsa</transliteration>
+        </sentence>
+
+        <sentence id="108">
+            <english>Sixty</english>
+            <amharic>ስልሳ</amharic>
+            <transliteration>selsa</transliteration>
+
+        </sentence>
+
+
+        <sentence id="109">
+            <english>Seventy</english>
+            <amharic>ሰባ</amharic>
+            <transliteration>seba</transliteration>
+        </sentence>
+
+        <sentence id="110">
+            <english>Eighty</english>
+            <amharic>ሰማንያ</amharic>
+            <transliteration>semaniya</transliteration>
+        </sentence>
+
+        <sentence id="111">
+            <english>Ninty</english>
+            <amharic>ዘጠና</amharic>
+            <transliteration>Zetena</transliteration>
+        </sentence>
+
+        <sentence id="112">
+            <english>Hundred</english>
+            <amharic>መቶ</amharic>
+            <transliteration>meto</transliteration>
+        </sentence>
+
+        <sentence id="113">
+            <english>Thousand</english>
+            <amharic>ሺህ</amharic>
+            <transliteration>She</transliteration>
+        </sentence>
+
+        <sentence id="114">
+            <english>Ten Thousand</english>
+            <amharic>አስር ሺህ</amharic>
+            <transliteration>asir she</transliteration>
+        </sentence>
+
+        <sentence id="115">
+            <english>Hundred Thousand</english>
+            <amharic>መቶ ሺህ</amharic>
+            <transliteration>asir she</transliteration>
+        </sentence>
+
+        <sentence id="116">
+            <english>One Million</english>
+            <amharic>አንድ ሚሊዮን</amharic>
+            <transliteration>And Million</transliteration>
+        </sentence>
+
+        <sentence id="117">
+            <english>One Billion</english>
+            <amharic>አንድ ቢሊዮን</amharic>
+            <transliteration>And Billion</transliteration>
+        </sentence>
+
+        <sentence id="118">
+            <english>One Trillion</english>
+            <amharic>አንድ ትሪሊዮን</amharic>
+            <transliteration>And Trillion</transliteration>
+        </sentence>
+
+    </lesson>
+    <!--*****************end of numbers**************************************************-->
+    <lesson id="4">
+        <sentence id="119">
+            <english>North</english>
+            <amharic>ሰሜን</amharic>
+            <transliteration>semen</transliteration>
+        </sentence>
+
+        <sentence id="120">
+            <english>South</english>
+            <amharic>ደቡብ</amharic>
+            <transliteration>debub</transliteration>
+        </sentence>
+
+        <sentence id="121">
+            <english>East</english>
+            <amharic>ምስራቅ</amharic>
+            <transliteration>misrak</transliteration>
+        </sentence>
+
+        <sentence id="122">
+            <english>West</english>
+            <amharic>ምእራብ</amharic>
+            <transliteration>meerab</transliteration>
+        </sentence>
+
+        <sentence id="123">
+            <english>North East</english>
+            <amharic>ሰሜን ምስራቅ</amharic>
+            <transliteration> semen misrak</transliteration>
+        </sentence>
+
+        <sentence id="124">
+            <english>North West</english>
+            <amharic>ሰሜን ምእራብ</amharic>
+            <transliteration> semen meerab</transliteration>
+        </sentence>
+
+        <sentence id="125">
+            <english>South West</english>
+            <amharic>ደቡብ ምእራብ </amharic>
+            <transliteration>debub meerab</transliteration>
+        </sentence>
+
+        <sentence id="126">
+            <english>South East</english>
+            <amharic>ደቡብ ምስራቅ</amharic>
+            <transliteration>debub misrak</transliteration>
+        </sentence>
+
+        <sentence id="127">
+            <english>to the left of</english>
+            <amharic>በግራ በኩል</amharic>
+            <transliteration>begira bekul</transliteration>
+        </sentence>
+
+        <sentence id="128">
+            <english>to the right of</english>
+            <amharic>በቀኝ በኩል</amharic>
+            <transliteration>bekegn bekul</transliteration>
+        </sentence>
+
+
+        <sentence id="129">
+            <english>right</english>
+            <amharic>ግራ</amharic>
+            <transliteration>gira</transliteration>
+        </sentence>
+
+        <sentence id="130">
+            <english>Left</english>
+            <amharic>ቀኝ</amharic>
+            <transliteration>kegn</transliteration>
+        </sentence>
+
+        <sentence id="131">
+            <english>Up</english>
+            <amharic>ላይ</amharic>
+            <transliteration>lie</transliteration>
+        </sentence>
+
+        <sentence id="132">
+            <english>Down</english>
+            <amharic>ታች</amharic>
+            <transliteration>Tach</transliteration>
+        </sentence>
+
+        <sentence id="133">
+            <english>in front of</english>
+            <amharic>ፊት ለ ፊት</amharic>
+            <transliteration>fit le fit</transliteration>
+        </sentence>
+
+        <sentence id="134">
+            <english>behind</english>
+            <amharic>ከኋላ</amharic>
+            <transliteration>kehuala</transliteration>
+        </sentence>
+
+        <sentence id="135">
+            <english>straight</english>
+            <amharic>ቀጥታ</amharic>
+            <transliteration>ketita</transliteration>
+        </sentence>
+
+        <sentence id="136">
+            <english>turn left</english>
+            <amharic>ወደ ቀኝ ታጠፍ</amharic>
+            <transliteration>wede kegn tatef</transliteration>
+        </sentence>
+
+        <sentence id="137">
+            <english>turn right</english>
+            <amharic>ወደ ግራ ታጠፍ</amharic>
+            <transliteration>wede gira tatef</transliteration>
+        </sentence>
+
+        <sentence id="138">
+            <english>turn back</english>
+            <amharic>ወደ ኋላ</amharic>
+            <transliteration>wede huwala temelese</transliteration>
+        </sentence>
+
+        <sentence id="139">
+            <english>Go straight</english>
+            <amharic>ወደ ፊት ሂድ</amharic>
+            <transliteration>ketita heed</transliteration>
+        </sentence>
+
+        <sentence id="140">
+            <english>Go back</english>
+            <amharic>ወደ ኋላ ሂድ</amharic>
+            <transliteration>wede huwala heed</transliteration>
+        </sentence>
+
+        <sentence id="141">
+            <english>opposite of</english>
+            <amharic>ተበተቃራኒ</amharic>
+            <transliteration>betekarani</transliteration>
+        </sentence>
+
+        <sentence id="142">
+            <english>across</english>
+            <amharic>ተሻግሮ</amharic>
+            <transliteration>teshagro</transliteration>
+        </sentence>
+
+        <sentence id="143">
+            <english>street</english>
+            <amharic>መንገድ</amharic>
+            <transliteration>menged</transliteration>
+        </sentence>
+
+        <sentence id="144">
+            <english>Avenue</english>
+            <amharic>ጎዳና</amharic>
+            <transliteration>godana</transliteration>
+        </sentence>
+
+        <sentence id="145">
+            <english>cross street</english>
+            <amharic>መንገድ ተሻግሮ</amharic>
+            <transliteration>menged teshager</transliteration>
+        </sentence>
+
+        <sentence id="146">
+            <english>traffic light</english>
+            <amharic>ትራፊክ መብራት</amharic>
+            <transliteration>traffic mebrat</transliteration>
+        </sentence>
+
+        <sentence id="147">
+            <english>zebra crossing</english>
+            <amharic>እግረኛ መሻገሪያ</amharic>
+            <transliteration>eigregna meshageria</transliteration>
+        </sentence>
+
+        <sentence id="148">
+            <english>Square</english>
+            <amharic>አደባባይ</amharic>
+            <transliteration>adebabay</transliteration>
+        </sentence>
+
+        <sentence id="149">
+            <english>intersection</english>
+            <amharic>መጋጠሚያ</amharic>
+            <transliteration>megatemia</transliteration>
+        </sentence>
+
+        <sentence id="150">
+            <english>how far</english>
+            <amharic>ምን ያህል ርቀት</amharic>
+            <transliteration>min yahil eriket</transliteration>
+        </sentence>
+
+        <sentence id="151">
+            <english>shortest route</english>
+            <amharic>አቛራጭ</amharic>
+            <transliteration>aqoarach</transliteration>
+        </sentence>
+
+        <sentence id="152">
+            <english>Hospital</english>
+            <amharic>ሐኪም ቤት</amharic>
+            <transliteration>hakim bet</transliteration>
+        </sentence>
+
+        <sentence id="153">
+            <english>school</english>
+            <amharic>ትምህርት ቤት</amharic>
+            <transliteration>timirt bet</transliteration>
+        </sentence>
+
+        <sentence id="154">
+            <english>Market</english>
+            <amharic>ገበያ</amharic>
+            <transliteration>gebeya</transliteration>
+        </sentence>
+
+        <sentence id="155">
+            <english>Building</english>
+            <amharic>ህንፃ</amharic>
+            <transliteration>hintsa</transliteration>
+        </sentence>
+
+        <sentence id="156">
+            <english>Pharmacy</english>
+            <amharic>መድሀኒት ቤት</amharic>
+            <transliteration>medhanit bet</transliteration>
+        </sentence>
+
+        <sentence id="157">
+            <english>church</english>
+            <amharic>ቤተክርስትያን</amharic>
+            <transliteration>bete christian</transliteration>
+        </sentence>
+
+        <sentence id="158">
+            <english>palace</english>
+            <amharic>ቤተመንግስት</amharic>
+            <transliteration>bete mengist</transliteration>
+        </sentence>
+
+        <sentence id="159">
+            <english>Information</english>
+            <amharic>መረጃ</amharic>
+            <transliteration>mereja</transliteration>
+        </sentence>
+
+        <sentence id="160">
+            <english>Post office</english>
+            <amharic>ፖስታ ቤት</amharic>
+            <transliteration>posta bet</transliteration>
+        </sentence>
+
+        <sentence id="161">
+            <english>Immigration office</english>
+            <amharic>የስደተኞች ቢሮ</amharic>
+            <transliteration>yesidetegnoch biro</transliteration>
+        </sentence>
+
+        <sentence id="162">
+            <english>Police Station</english>
+            <amharic>ፖሊስ ጣቢያ</amharic>
+            <transliteration>police tabiya</transliteration>
+        </sentence>
+
+        <sentence id="163">
+            <english>Mosque</english>
+            <amharic>መስኪድ</amharic>
+            <transliteration>meskid</transliteration>
+        </sentence>
+
+        <sentence id="164">
+            <english>House</english>
+            <amharic>ቤት</amharic>
+            <transliteration>bet</transliteration>
+        </sentence>
+    </lesson>
+    <!--***************end of directions**************************************************-->
+    <lesson id="5">
+        <sentence id="165">
+            <english>Map</english>
+            <amharic>ካርታ</amharic>
+            <transliteration>karta</transliteration>
+        </sentence>
+        <sentence id="166">
+            <english>shown on Map</english>
+            <amharic>ካርታ ላይ </amharic>
+            <transliteration>karta lie</transliteration>
+        </sentence>
+
+        <sentence id="167">
+            <english>Driving a car</english>
+            <amharic>መኪና መንዳት</amharic>
+            <transliteration>mekina mendat </transliteration>
+        </sentence>
+
+        <sentence id="168">
+            <english>Bus stop</english>
+            <amharic>ፌርማታ</amharic>
+            <transliteration>faermata</transliteration>
+        </sentence>
+
+        <sentence id="169">
+            <english>Train Station</english>
+            <amharic>ባቡር ጣቢያ</amharic>
+            <transliteration>babur tabiya</transliteration>
+        </sentence>
+
+        <sentence id="170">
+            <english>City bus</english>
+            <amharic>የከተማ አዉቶቢስ</amharic>
+            <transliteration>yeketema awtobis</transliteration>
+        </sentence>
+
+        <sentence id="171">
+            <english>ride the bike</english>
+            <amharic>ብስክሌት መንዳት</amharic>
+            <transliteration>bisikilēt menidat </transliteration>
+        </sentence>
+
+        <sentence id="172">
+            <english>Motorcycle</english>
+            <amharic>ሞተር ብስክሌት</amharic>
+            <transliteration>motor bisklet</transliteration>
+        </sentence>
+
+        <sentence id="173">
+            <english>Boat ride</english>
+            <amharic>የጀልባ ጉዞ</amharic>
+            <transliteration>yejelba guzo</transliteration>
+        </sentence>
+
+        <sentence id="174">
+            <english>Take a taxi(male)</english>
+            <amharic>በታክሢ ሂድ</amharic>
+            <transliteration>be taxi heed</transliteration>
+        </sentence>
+
+        <sentence id="175">
+            <english>Take a taxi(female)</english>
+            <amharic>በታክሢ ሂጂ</amharic>
+            <transliteration>be taxi hiji</transliteration>
+        </sentence>
+
+        <sentence id="176">
+            <english>Take a taxi(plural)</english>
+            <amharic>በታክሢ ሂዱ</amharic>
+            <transliteration>be taxi hidu</transliteration>
+        </sentence>
+
+
+        <sentence id="177">
+            <english>at the airport</english>
+            <amharic>በአውሮፕላን ማረፊያው ውስጥ</amharic>
+            <transliteration>be’āwiropilani marefīyawi wisit’i</transliteration>
+        </sentence>
+
+
+        <sentence id="178">
+            <english>one Ticket please</english>
+            <amharic>አንድ ቲኬት እባካችሁ</amharic>
+            <transliteration>ānidi tīkēti ibakachihu</transliteration>
+        </sentence>
+
+        <sentence id="179">
+            <english>Hire car</english>
+            <amharic>የመኪና ኪራይ</amharic>
+            <transliteration>yemekīna kīrayi</transliteration>
+        </sentence>
+
+        <sentence id="180">
+            <english>please hurry up</english>
+            <amharic>እባክዎን ፈጥኑ</amharic>
+            <transliteration>ibakiwoni fet’inu</transliteration>
+        </sentence>
+
+        <sentence id="181">
+            <english>watch out(male)</english>
+            <amharic>ተመልከት</amharic>
+            <transliteration>temeliketi</transliteration>
+        </sentence>
+
+        <sentence id="182">
+            <english>watch out(female)</english>
+            <amharic>ተመልከቺ</amharic>
+            <transliteration>temelikechi</transliteration>
+        </sentence>
+
+        <sentence id="183">
+            <english>watch out(plural)</english>
+            <amharic>ተመልከቱ</amharic>
+            <transliteration>temeliketui</transliteration>
+        </sentence>
+
+        <sentence id="184">
+            <english>How long</english>
+            <amharic>ምን ያህል ጊዜ</amharic>
+            <transliteration>mini yahili gīzē</transliteration>
+        </sentence>
+
+        <sentence id="185">
+            <english>Are we there yet?</english>
+            <amharic>ደረስን?</amharic>
+            <transliteration>deresin</transliteration>
+        </sentence>
+
+        <sentence id="186">
+            <english>Is it far?</english>
+            <amharic>ሩቅ ነው?</amharic>
+            <transliteration>ruk’i newi?</transliteration>
+        </sentence>
+
+        <sentence id="187">
+            <english>How long?</english>
+            <amharic>ምን ያህል ጊዜ? ?</amharic>
+            <transliteration>min yahil gize?</transliteration>
+        </sentence>
+
+
+        <sentence id="188">
+            <english>I will get off here</english>
+            <amharic>እዚህ እወርዳለሁ</amharic>
+            <transliteration>izīhi iwerdalehu</transliteration>
+        </sentence>
+
+        <sentence id="189">
+            <english>I am lost</english>
+            <amharic>መንገዴን ስችሃለሁ</amharic>
+            <transliteration>menigedēn sichihalehu</transliteration>
+        </sentence>
+
+        <sentence id="190">
+            <english>please stop(female)</english>
+            <amharic>እባክሺን አቁሚ</amharic>
+            <transliteration>ibakishin āk’umi</transliteration>
+        </sentence>
+
+        <sentence id="191">
+            <english>please stop(male)</english>
+            <amharic>እባክህን አቁም</amharic>
+            <transliteration>ibakihin āk’umi</transliteration>
+        </sentence>
+
+    </lesson>
+    <!--end of travel****************************************************-->
+    <lesson id="6">
+
+        <sentence id="192">
+            <english>Seconds</english>
+            <amharic>ሰከንዶች</amharic>
+            <transliteration>sekenidochi</transliteration>
+        </sentence>
+        <sentence id="193">
+            <english>minutes</english>
+            <amharic>ደቂቃዎች</amharic>
+            <transliteration>dek’īk’awochi</transliteration>
+        </sentence>
+        <sentence id="194">
+            <english>Hours</english>
+            <amharic>ሰዓታት</amharic>
+            <transliteration>se‘atat</transliteration>
+        </sentence>
+        <sentence id="195">
+            <english>Day</english>
+            <amharic>ቀን</amharic>
+            <transliteration>k’eni</transliteration>
+        </sentence>
+        <sentence id="196">
+            <english>Night</english>
+            <amharic>ለሊት</amharic>
+            <transliteration>lelīti</transliteration>
+        </sentence>
+        <sentence id="197">
+            <english>Morning</english>
+            <amharic>ጠዋት</amharic>
+            <transliteration>t’ewati</transliteration>
+        </sentence>
+        <sentence id="198">
+            <english>Noon</english>
+            <amharic>ቀትር</amharic>
+            <transliteration>k’etiri</transliteration>
+        </sentence>
+        <sentence id="199">
+            <english>Afternoon</english>
+            <amharic>ከሰዓት በኋላ</amharic>
+            <transliteration>kese‘ati beḫwala</transliteration>
+        </sentence>
+        <sentence id="200">
+            <english>Midnight</english>
+            <amharic>እኩለ ሌሊት</amharic>
+            <transliteration>ikule lēlīti</transliteration>
+        </sentence>
+        <sentence id="201">
+            <english>Today</english>
+            <amharic>ዛሬ</amharic>
+            <transliteration>zarē</transliteration>
+        </sentence>
+        <sentence id="202">
+            <english>Tonight</english>
+            <amharic>ዛሬ ማታ</amharic>
+            <transliteration>zarē mata</transliteration>
+        </sentence>
+        <sentence id="203">
+            <english>Last Night</english>
+            <amharic>ትናንትና ማታ</amharic>
+            <transliteration>tinanitina mata</transliteration>
+        </sentence>
+        <sentence id="204">
+            <english>Tomorrow</english>
+            <amharic>ነገ</amharic>
+            <transliteration>nege</transliteration>
+        </sentence>
+        <sentence id="205">
+            <english>Yesterday</english>
+            <amharic>ትላንትና</amharic>
+            <transliteration>tilanitina</transliteration>
+        </sentence>
+        <sentence id="206">
+            <english>the day after tomorrow</english>
+            <amharic>ተነገ ወዲያ</amharic>
+            <transliteration>tenege wediya</transliteration>
+        </sentence>
+        <sentence id="207">
+            <english>week</english>
+            <amharic>ሳምንት</amharic>
+            <transliteration>saminit</transliteration>
+        </sentence>
+        <sentence id="208">
+            <english>Month</english>
+            <amharic>ወር</amharic>
+            <transliteration>wer</transliteration>
+        </sentence>
+        <sentence id="209">
+            <english>Year</english>
+            <amharic>አመት</amharic>
+            <transliteration>āmeti</transliteration>
+        </sentence>
+        <sentence id="210">
+            <english>Last Year</english>
+            <amharic>ባለፈው ዓመት</amharic>
+            <transliteration></transliteration>
+        </sentence>
+        <sentence id="211">
+            <english>Next Week</english>
+            <amharic>በሚቀጥለው ሳምንት</amharic>
+            <transliteration>bemīk’et’ilewi saminiti</transliteration>
+        </sentence>
+        <sentence id="212">
+            <english>Past</english>
+            <amharic>ያለፈ</amharic>
+            <transliteration>yalefe</transliteration>
+        </sentence>
+        <sentence id="213">
+            <english>Now</english>
+            <amharic>አሁን</amharic>
+            <transliteration>āhuni</transliteration>
+        </sentence>
+        <sentence id="214">
+            <english>Future</english>
+            <amharic>ወደፊት</amharic>
+            <transliteration>wedefit</transliteration>
+        </sentence>
+        <sentence id="215">
+            <english>what time is it?</english>
+            <amharic>ስንት ሰዓት ነው</amharic>
+            <transliteration>siniti se‘ati now</transliteration>
+        </sentence>
+        <sentence id="216">
+            <english>Its late </english>
+            <amharic>ረፍዷል</amharic>
+            <transliteration>refidwal</transliteration>
+        </sentence>
+        <sentence id="217">
+            <english>its a bit early</english>
+            <amharic>ትንሽ ቀደም ብሎ</amharic>
+            <transliteration>tinishi k’edemi bilo</transliteration>
+        </sentence>
+        <sentence id="218">
+            <english>Half past</english>
+            <amharic>ተኩል</amharic>
+            <transliteration>tekul</transliteration>
+        </sentence>
+    </lesson>
+    <!--end of time****************************************************-->
+    <lesson id="7">
+        <sentence id="219" >
+            <english>Monday</english>
+            <amharic>ሰኞ</amharic>
+            <transliteration>Segnyo </transliteration>
+        </sentence>
+        <sentence id="220">
+            <english>Tuesday</english>
+            <amharic>ማክሰኞ</amharic>
+            <transliteration>makisegnyo</transliteration>
+        </sentence>
+        <sentence id="221">
+            <english>Wednesday</english>
+            <amharic>እሮብ</amharic>
+            <transliteration>irob</transliteration>
+        </sentence>
+        <sentence id= "222">
+            <english>Thursday</english>
+            <amharic> ሐሙስ</amharic>
+            <transliteration>ḥāmusi</transliteration>
+        </sentence>
+        <sentence id="223" >
+            <english> Friday</english>
+            <amharic>አርብ</amharic>
+            <transliteration>āribi</transliteration>
+        </sentence>
+        <sentence id="224">
+            <english>Saturday</english>
+            <amharic>ቅዳሜ</amharic>
+            <transliteration>k’idamē </transliteration>
+        </sentence>
+        <sentence id="225">
+            <english>Sunday</english>
+            <amharic>እሁድ</amharic>
+            <transliteration>ihud</transliteration>
+        </sentence>
+        <sentence id="226">
+            <english>January</english>
+            <amharic>ጥር</amharic>
+            <transliteration>t’ir</transliteration>
+        </sentence>
+        <sentence id="227">
+            <english>February</english>
+            <amharic>የካቲት</amharic>
+            <transliteration>yekatīt</transliteration>
+        </sentence>
+        <sentence id="228">
+            <english>March</english>
+            <amharic>መጋቢት</amharic>
+            <transliteration>megabīt</transliteration>
+        </sentence>
+        <sentence id="229">
+            <english>April</english>
+            <amharic>ሚያዚያ</amharic>
+            <transliteration>mīyazīya</transliteration>
+        </sentence>
+        <sentence id="230">
+            <english>May</english>
+            <amharic>ግንቦት</amharic>
+            <transliteration>ginibot</transliteration>
+        </sentence>
+        <sentence id="231">
+            <english>June</english>
+            <amharic>ሰኔ</amharic>
+            <transliteration>senē</transliteration>
+        </sentence>
+        <sentence id="232">
+            <english>July</english>
+            <amharic>ሀምሌ</amharic>
+            <transliteration>hāmilē</transliteration>
+        </sentence>
+        <sentence id="233">
+            <english>August</english>
+            <amharic>ነሐሴ</amharic>
+            <transliteration>neḥāsē</transliteration>
+        </sentence>
+        <sentence id="234">
+            <english>September</english>
+            <amharic>መስከረም</amharic>
+            <transliteration>mesikerem</transliteration>
+        </sentence>
+        <sentence id="235">
+            <english>October</english>
+            <amharic>ጥቅምት</amharic>
+            <transliteration>t’ik’imit</transliteration>
+        </sentence>
+        <sentence id="236">
+            <english>November</english>
+            <amharic>ህዳር</amharic>
+            <transliteration>hidar</transliteration>
+        </sentence>
+        <sentence id="237">
+            <english>December</english>
+            <amharic>ታህሳስ</amharic>
+            <transliteration>tahisasi</transliteration>
+        </sentence>
+
+    </lesson>
+    <!--end of Days and Months******************************-->
+    <lesson id="8">
+        <sentence id="238">
+            <english>clothing</english>
+            <amharic>ልብስ</amharic>
+            <transliteration>libis</transliteration>
+        </sentence>
+        <sentence id="239">
+            <english>Laundry</english>
+            <amharic>ልብስ ማጠቢያ</amharic>
+            <transliteration>libisi mat’ebīya</transliteration>
+        </sentence>
+        <sentence id="240">
+            <english>Pants</english>
+            <amharic>ሱሪ</amharic>
+            <transliteration>suri</transliteration>
+        </sentence>
+        <sentence id="241">
+            <english>Eyeglasses</english>
+            <amharic>መነጽር</amharic>
+            <transliteration>menetsir</transliteration>
+        </sentence>
+        <sentence id="242">
+            <english>Sunglasses</english>
+            <amharic>የፀሐይ መነፅር</amharic>
+            <transliteration>yetseḥayi menetsir</transliteration>
+        </sentence>
+        <sentence id="243">
+            <english>Size</english>
+            <amharic>ልክ/መጠን</amharic>
+            <transliteration>lik/meten</transliteration>
+        </sentence>
+        <sentence id="244">
+            <english>Wide</english>
+            <amharic>ሰፊ</amharic>
+            <transliteration>sefī</transliteration>
+        </sentence>
+        <sentence id="245">
+            <english>tight pants</english>
+            <amharic>ጥብቅ ሱሪ</amharic>
+            <transliteration>t’ibik’i surī</transliteration>
+        </sentence>
+        <sentence id="246">
+            <english>Suit</english>
+            <amharic>ሱፍ</amharic>
+            <transliteration>suif</transliteration>
+        </sentence>
+        <sentence id="247">
+            <english>Shirt</english>
+            <amharic>ሸሚዝ</amharic>
+            <transliteration>shemīz</transliteration>
+        </sentence>
+        <sentence id="248">
+            <english>Sweater</english>
+            <amharic>ሹራብ</amharic>
+            <transliteration>shureab</transliteration>
+        </sentence>
+        <sentence id="249">
+            <english>Scarf</english>
+            <amharic>ሻሽ</amharic>
+            <transliteration>shash</transliteration>
+        </sentence>
+        <sentence id="250">
+            <english>braided hair/ braid</english>
+            <amharic>ሹሩባ</amharic>
+            <transliteration>Shuruba</transliteration>
+        </sentence>
+        <sentence id="251">
+            <english>Perfume</english>
+            <amharic>ሽቶ</amharic>
+            <transliteration>shito</transliteration>
+        </sentence>
+        <sentence id="252">
+            <english>Shorts</english>
+            <amharic>ቁምጣ</amharic>
+            <transliteration>kumta</transliteration>
+        </sentence>
+        <sentence id="253">
+            <english>Hat</english>
+            <amharic>ቆብ</amharic>
+            <transliteration>Kob</transliteration>
+        </sentence>
+        <sentence id="254">
+            <english>leather jacket</english>
+            <amharic>የቆዳ ጃኬት</amharic>
+            <transliteration>yek’oda jakēt</transliteration>
+        </sentence>
+        <sentence id="255">
+            <english>Handbag</english>
+            <amharic>የእጅ ቦርሳ</amharic>
+            <transliteration>ye’ij borisa</transliteration>
+        </sentence>
+        <sentence id="256">
+            <english>wedding ring</english>
+            <amharic>የጋብቻ ቀለበት</amharic>
+            <transliteration>yegabicha k’elebet</transliteration>
+        </sentence>
+        <sentence id="257">
+            <english>Dinner dress</english>
+            <amharic>የእራት ልብስ</amharic>
+            <transliteration>ye’irat libis</transliteration>
+        </sentence>
+        <sentence id="258">
+            <english>night gown</english>
+            <amharic>የምሽት ልብስ</amharic>
+            <transliteration>yemishiti libisi</transliteration>
+        </sentence>
+        <sentence id="259">
+            <english>Dress</english>
+            <amharic>ቀሚስ</amharic>
+            <transliteration>kemis</transliteration>
+        </sentence>
+        <sentence id="260">
+            <english>Belt</english>
+            <amharic>ቀበቶ</amharic>
+            <transliteration>k’ebeto</transliteration>
+        </sentence>
+        <sentence id="261">
+            <english>tattoo</english>
+            <amharic>ንቅሳት</amharic>
+            <transliteration>nik’isat</transliteration>
+        </sentence>
+        <sentence id="262">
+            <english>Diamond</english>
+            <amharic>አልማዝ</amharic>
+            <transliteration>ālimaz</transliteration>
+        </sentence>
+        <sentence id="263">
+            <english>Jewellery</english>
+            <amharic>ጌጣጌጥ</amharic>
+            <transliteration>gēt’agēt’i</transliteration>
+        </sentence>
+        <sentence id="264">
+            <english>Bracelet</english>
+            <amharic>አምባር</amharic>
+            <transliteration>āmibar</transliteration>
+        </sentence>
+        <sentence id="265">
+            <english>Old clothes</english>
+            <amharic>አሮጌ ልብሶች</amharic>
+            <transliteration>ārogē libisoch</transliteration>
+        </sentence>
+        <sentence id="266">
+            <english>New clothes</english>
+            <amharic>አዳዲስ ልብሶች</amharic>
+            <transliteration>adadis libisoch</transliteration>
+        </sentence>
+        <sentence id="267">
+            <english>Socks</english>
+            <amharic>ካልሲ</amharic>
+            <transliteration>kalisī</transliteration>
+        </sentence>
+        <sentence id="268">
+            <english>Necktie</english>
+            <amharic>ክራባት</amharic>
+            <transliteration>kirabati</transliteration>
+        </sentence>
+        <sentence id="269">
+            <english>overCoat</english>
+            <amharic>ካፓርት</amharic>
+            <transliteration>kaport</transliteration>
+        </sentence>
+        <sentence id="270">
+            <english>Cap</english>
+            <amharic>ባርኔጣ/ኮፍያ</amharic>
+            <transliteration> barneta/kofiya</transliteration>
+        </sentence>
+        <sentence id="271">
+            <english>lingerie</english>
+            <amharic>የዉስጥ ልብስ</amharic>
+            <transliteration>ye wisit libise</transliteration>
+        </sentence>
+        <sentence id="272">
+            <english>Purse(women's)</english>
+            <amharic>የሴት ቦርሳ</amharic>
+            <transliteration>yeset borsa</transliteration>
+        </sentence>
+        <sentence id="273">
+            <english>Cosmetic/makeup</english>
+            <amharic>ኮስሜቲክስ/ሜካፕ</amharic>
+            <transliteration>cosmetic/makeup </transliteration>
+        </sentence>
+        <sentence id="274">
+            <english>Necklace</english>
+            <amharic>የአንገት ሃብል</amharic>
+            <transliteration>yeanget habil</transliteration>
+        </sentence>
+        <sentence id="275">
+            <english>Wrist watch</english>
+            <amharic>የእጅ ሰዓት</amharic>
+            <transliteration> yeigi se‘at</transliteration>
+        </sentence>
+        <sentence id="276">
+            <english>Wallet</english>
+            <amharic>የገንዘብ ቦርሳ</amharic>
+            <transliteration>yegenizebi borisa</transliteration>
+        </sentence>
+        <sentence id="277">
+            <english>Underpants</english>
+            <amharic>የዉስጥ ሱሪ</amharic>
+            <transliteration>yewisit suri</transliteration>
+        </sentence>
+        <sentence id="278">
+            <english>Earrings</english>
+            <amharic>ጉትቻ</amharic>
+            <transliteration>guticha</transliteration>
+        </sentence>
+        <sentence id="279">
+            <english>Jackets</english>
+            <amharic>ጃኬቶች</amharic>
+            <transliteration>jakētochi</transliteration>
+        </sentence>
+        <sentence id="280">
+            <english>Skirt</english>
+            <amharic>ጉርድ ቀሚስ</amharic>
+            <transliteration>gurid kemis </transliteration>
+        </sentence>
+        <sentence id="281">
+            <english>narrow</english>
+            <amharic>ጠባብ</amharic>
+            <transliteration>t’ebab</transliteration>
+        </sentence>
+        <sentence id="282">
+            <english>Bigger size</english>
+            <amharic>ተለቅ ያለ</amharic>
+            <transliteration>telek yale</transliteration>
+        </sentence>
+        <sentence id="283">
+            <english>smaller size</english>
+            <amharic>አነስ ያለ</amharic>
+            <transliteration>ānesi yale</transliteration>
+        </sentence>
+        <sentence id="284">
+            <english>Bra</english>
+            <amharic>ጡትማስያዣ</amharic>
+            <transliteration>tut masiaja</transliteration>
+        </sentence>
+        <sentence id="285">
+            <english>fabric</english>
+            <amharic>ጨርቅ</amharic>
+            <transliteration>ch’erik’i</transliteration>
+        </sentence>
+
+        <sentence id="286">
+            <english>Shoes</english>
+            <amharic>ጫማዎች</amharic>
+            <transliteration>ch’amawoch</transliteration>
+        </sentence>
+        <sentence id="287">
+            <english>Boots</english>
+            <amharic>ቡትስ</amharic>
+            <transliteration>butis</transliteration>
+        </sentence>
+        <sentence id="288">
+            <english>Fashion</english>
+            <amharic>ፋሽን</amharic>
+            <transliteration>fashin</transliteration>
+        </sentence>
+        <sentence id="289">
+            <english>stylish</english>
+            <amharic>ዘናጭ</amharic>
+            <transliteration>zenach</transliteration>
+        </sentence>
+    </lesson>
+
+    <!--end of clothing******************************-->
+    <lesson id="9">
+        <sentence id="290">
+            <english>Apple</english>
+            <amharic>ፖም</amharic>
+            <transliteration>pom</transliteration>
+        </sentence>
+        <sentence id="291">
+            <english>Banana</english>
+            <amharic>ሙዝ</amharic>
+            <transliteration>mooz</transliteration>
+        </sentence>
+        <sentence id="292">
+            <english>Beans</english>
+            <amharic>ባቄላ</amharic>
+            <transliteration>bak’ēla</transliteration>
+        </sentence>
+        <sentence id="293">
+            <english>Beef</english>
+            <amharic>ስጋ</amharic>
+            <transliteration>siga</transliteration>
+        </sentence>
+        <sentence id="294">
+            <english>Beets</english>
+            <amharic>ቀይስር</amharic>
+            <transliteration>qeysir</transliteration>
+        </sentence>
+        <sentence id="295">
+            <english>berries</english>
+            <amharic>እንጆሪ</amharic>
+            <transliteration>injori</transliteration>
+        </sentence>
+        <sentence id="296">
+            <english>Bottle</english>
+            <amharic>ጠርሙስ</amharic>
+            <transliteration>t’ermus</transliteration>
+        </sentence>
+        <sentence id="297">
+            <english>Bottled water</english>
+            <amharic>የታሸገ ውሃ</amharic>
+            <transliteration>yetashege wiha</transliteration>
+        </sentence>
+        <sentence id="298">
+            <english>Bowl</english>
+            <amharic>ጎድጓዳ ሳህን</amharic>
+            <transliteration>godigwada sahin</transliteration>
+        </sentence>
+        <sentence id="299">
+            <english>Bread </english>
+            <amharic>ዳቦ</amharic>
+            <transliteration>dabo</transliteration>
+        </sentence>
+        <sentence id="300">
+            <english>Breakfast</english>
+            <amharic>ቁርስ</amharic>
+            <transliteration>kures</transliteration>
+        </sentence>
+        <sentence id="301">
+            <english>Butter</english>
+            <amharic>ቅቤ</amharic>
+            <transliteration>k’ibē</transliteration>
+        </sentence>
+        <sentence id="302">
+            <english>Cabbage</english>
+            <amharic>ጥቅል ጎመን</amharic>
+            <transliteration>tikil gomen</transliteration>
+        </sentence>
+        <sentence id="303">
+            <english>Cake</english>
+            <amharic>ኬክ</amharic>
+            <transliteration>kek</transliteration>
+        </sentence>
+        <sentence id="304">
+            <english>Candy</english>
+            <amharic>ከረሜላ</amharic>
+            <transliteration>keremēla</transliteration>
+        </sentence>
+        <sentence id="305">
+            <english>Carrot</english>
+            <amharic>ካሮት</amharic>
+            <transliteration>karot</transliteration>
+        </sentence>
+        <sentence id="306">
+            <english>Chicken</english>
+            <amharic>ዶሮ</amharic>
+            <transliteration>doro</transliteration>
+        </sentence>
+        <sentence id="307">
+            <english>Chickpea</english>
+            <amharic>ሽምብራ</amharic>
+            <transliteration>shimbra</transliteration>
+        </sentence>
+        <sentence id="308">
+            <english>Coffee</english>
+            <amharic>ቡና</amharic>
+            <transliteration>buna</transliteration>
+        </sentence>
+        <sentence id="309">
+            <english>Collard green</english>
+            <amharic>ጎመን</amharic>
+            <transliteration>gomen</transliteration>
+        </sentence>
+        <sentence id="310">
+            <english>Cooking Oil</english>
+            <amharic>የምግብ ዘይት</amharic>
+            <transliteration>yemigib zeyit</transliteration>
+        </sentence>
+        <sentence id="311">
+            <english>Corn</english>
+            <amharic>በቆሎ</amharic>
+            <transliteration>bek’olo</transliteration>
+        </sentence>
+        <sentence id="312">
+            <english>Dinner</english>
+            <amharic>እራት</amharic>
+            <transliteration>Erat</transliteration>
+        </sentence>
+        <sentence id="313">
+            <english>Eggs</english>
+            <amharic>እንቁላል</amharic>
+            <transliteration>enkulal</transliteration>
+        </sentence>
+        <sentence id="314">
+            <english>Cheese</english>
+            <amharic>አይብ</amharic>
+            <transliteration>ayib</transliteration>
+        </sentence>
+        <sentence id="315">
+            <english>Evening Snack</english>
+            <amharic>መክሰስ</amharic>
+            <transliteration>mekisesi</transliteration>
+        </sentence>
+        <sentence id="316">
+            <english>Fish</english>
+            <amharic>ዓሳ</amharic>
+            <transliteration>assa</transliteration>
+        </sentence>
+        <sentence id="317">
+            <english>Flour</english>
+            <amharic>ዱቄት</amharic>
+            <transliteration>duqet</transliteration>
+        </sentence>
+        <sentence id="318">
+            <english>Forks</english>
+            <amharic>ሹካዎች</amharic>
+            <transliteration>shukawoch</transliteration>
+        </sentence>
+        <sentence id="319">
+            <english>Garlic</english>
+            <amharic>ነጭ ሽንኩርት</amharic>
+            <transliteration>nech’i shinikurit</transliteration>
+        </sentence>
+        <sentence id="320">
+            <english>Glass(drinking)</english>
+            <amharic>ብርጭቆ</amharic>
+            <transliteration>birich’ik’o</transliteration>
+        </sentence>
+        <sentence id="321">
+            <english>Grapes</english>
+            <amharic>ወይን</amharic>
+            <transliteration>weyin</transliteration>
+        </sentence>
+        <sentence id="322">
+            <english>Grilled meat</english>
+            <amharic>የተጠበሰ ሥጋ</amharic>
+            <transliteration>yetet’ebese šiga</transliteration>
+        </sentence>
+        <sentence id="323">
+            <english>Guava </english>
+            <amharic>ዘይቱን</amharic>
+            <transliteration>zeytun</transliteration>
+        </sentence>
+        <sentence id="324">
+            <english>Honey</english>
+            <amharic>ማር</amharic>
+            <transliteration>mar</transliteration>
+        </sentence>
+        <sentence id="325">
+            <english>Juice</english>
+            <amharic>ጭማቂ</amharic>
+            <transliteration>ch’imak’ī</transliteration>
+        </sentence>
+        <sentence id="326">
+            <english>knife</english>
+            <amharic>ቢላዋ</amharic>
+            <transliteration>bilawa</transliteration>
+        </sentence>
+        <sentence id="327">
+            <english>Lentils</english>
+            <amharic>ምስር</amharic>
+            <transliteration>misir</transliteration>
+        </sentence>
+        <sentence id="328">
+            <english>lentils soup</english>
+            <amharic>ምስር ሾርባ</amharic>
+            <transliteration>misiri shoriba</transliteration>
+        </sentence>
+        <sentence id="329">
+            <english>Lettuce</english>
+            <amharic>ሰላጣ</amharic>
+            <transliteration>selata</transliteration>
+        </sentence>
+        <sentence id="330">
+            <english>Lunch</english>
+            <amharic>ምሳ</amharic>
+            <transliteration>misa</transliteration>
+        </sentence>
+        <sentence id="331">
+            <english>Meat</english>
+            <amharic>ስጋ</amharic>
+            <transliteration>siga</transliteration>
+        </sentence>
+        <sentence id="332">
+            <english>Milk</english>
+            <amharic>ወተት</amharic>
+            <transliteration>wetet</transliteration>
+        </sentence>
+        <sentence id="333">
+            <english>veggie combo</english>
+            <amharic>የጾም የበያይነቱ</amharic>
+            <transliteration>beyaynetu</transliteration>
+        </sentence>
+        <sentence id="334">
+            <english>Mushroom</english>
+            <amharic>እንጉዳይ</amharic>
+            <transliteration>iniguday</transliteration>
+        </sentence>
+        <sentence id="335">
+            <english>Onion</english>
+            <amharic>ሽንኩርት</amharic>
+            <transliteration>shinqurt</transliteration>
+        </sentence>
+        <sentence id="336">
+            <english>Orange juice</english>
+            <amharic>ብርቱካን ጭማቂ</amharic>
+            <transliteration>biritukani ch’imak’ī</transliteration>
+        </sentence>
+        <sentence id="337">
+            <english>Pea</english>
+            <amharic>አተር</amharic>
+            <transliteration>āter</transliteration>
+        </sentence>
+        <sentence id="338">
+            <english>Peanuts</english>
+            <amharic>ኦቾሎኒ</amharic>
+            <transliteration>ocholoni</transliteration>
+        </sentence>
+        <sentence id="339">
+            <english>Plate</english>
+            <amharic>ሳህን</amharic>
+            <transliteration>sahin</transliteration>
+        </sentence>
+        <sentence id="340">
+            <english>Pork</english>
+            <amharic>የአሳማ ሥጋ</amharic>
+            <transliteration>ye’āsama šiga</transliteration>
+        </sentence>
+        <sentence id="341">
+            <english>Raisins</english>
+            <amharic>ዘቢብ</amharic>
+            <transliteration>zebib</transliteration>
+        </sentence>
+        <sentence id="342">
+            <english>Raw</english>
+            <amharic>ጥሬ</amharic>
+            <transliteration>tere</transliteration>
+        </sentence>
+        <sentence id="343">
+            <english>raw meat</english>
+            <amharic>ጥሬ ስጋ</amharic>
+            <transliteration>t’irē siga</transliteration>
+        </sentence>
+        <sentence id="344">
+            <english>Salad</english>
+            <amharic>ሰላጣ</amharic>
+            <transliteration>selat’a</transliteration>
+        </sentence>
+        <sentence id="345">
+            <english>salty</english>
+            <amharic>ጨዋማ</amharic>
+            <transliteration>chewama</transliteration>
+        </sentence>
+        <sentence id="346">
+            <english>spicy food</english>
+            <amharic>የሚያቃጥል ምግብ</amharic>
+            <transliteration>yemīyak’at’ili migibi</transliteration>
+        </sentence>
+        <sentence id="347">
+            <english>Soft drink</english>
+            <amharic>ለስላሳ መጠጥ</amharic>
+            <transliteration>lesilasa met’et’</transliteration>
+        </sentence>
+        <sentence id="348">
+            <english>Soup</english>
+            <amharic>ሾርባ</amharic>
+            <transliteration>shoriba</transliteration>
+        </sentence>
+        <sentence id="349">
+            <english>Spices</english>
+            <amharic>ቅመሞች</amharic>
+            <transliteration>kimemoch</transliteration>
+        </sentence>
+        <sentence id="350">
+            <english>Spicy minced beef</english>
+            <amharic>ክትፎ</amharic>
+            <transliteration>kitfo</transliteration>
+        </sentence>
+        <sentence id="351">
+            <english>Spicy beef stew</english>
+            <amharic>ቀይ ስጋ ወጥ</amharic>
+            <transliteration>k’eyi siga wot</transliteration>
+        </sentence>
+        <sentence id="352">
+            <english>Spicy chicken stew </english>
+            <amharic>ዶሮ ወጥ</amharic>
+            <transliteration>Doro wot</transliteration>
+        </sentence>
+        <sentence id="353">
+            <english>Soft Ethiopian bread</english>
+            <amharic>እንጀራ</amharic>
+            <transliteration>Ingera</transliteration>
+        </sentence>
+        <sentence id="354">
+            <english>Spoon</english>
+            <amharic>ማንኪያ</amharic>
+            <transliteration>manikīya</transliteration>
+        </sentence>
+        <sentence id="355">
+            <english>Stew</english>
+            <amharic>ወጥ</amharic>
+            <transliteration>wot</transliteration>
+        </sentence>
+        <sentence id="356">
+            <english>Sugar</english>
+            <amharic>ስኳር</amharic>
+            <transliteration>siquar</transliteration>
+        </sentence>
+        <sentence id="357">
+            <english>Tea</english>
+            <amharic>ሻይ</amharic>
+            <transliteration>shy</transliteration>
+        </sentence>
+        <sentence id="358">
+            <english>Water</english>
+            <amharic>ውሃ</amharic>
+            <transliteration>wiha</transliteration>
+        </sentence>
+        <sentence id="359">
+            <english>Yoghurt</english>
+            <amharic>እርጎ</amharic>
+            <transliteration>ergo</transliteration>
+        </sentence>
+        <sentence id="360">
+            <english>Yummy</english>
+            <amharic>ጣፋጭ</amharic>
+            <transliteration>t’afach’</transliteration>
+        </sentence>
+        <sentence id="361">
+            <english>zucchini</english>
+            <amharic>ዚኩኒ</amharic>
+            <transliteration>zīkunī</transliteration>
+        </sentence>
+
+    </lesson>
+    <!--end of food*********************************-->
+    <lesson id="10">
+        <sentence id="362">
+            <english>For</english>
+            <amharic>ለ</amharic>
+            <transliteration>le</transliteration>
+        </sentence>
+        <sentence id="363">
+            <english>For her</english>
+            <amharic>ለእሷ</amharic>
+            <transliteration>le’iswa</transliteration>
+        </sentence>
+        <sentence id="364">
+            <english>On</english>
+            <amharic>ላይ</amharic>
+            <transliteration>layi</transliteration>
+        </sentence>
+        <sentence id="365">
+            <english>On the table</english>
+            <amharic>ጠረጴዛው ላይ</amharic>
+            <transliteration>terebezaw layi</transliteration>
+        </sentence>
+        <sentence id="366">
+            <english>When</english>
+            <amharic>መቼ</amharic>
+            <transliteration>mechē</transliteration>
+        </sentence>
+        <sentence id="367">
+            <english>When today?</english>
+            <amharic>መቼ ዛሬ?</amharic>
+            <transliteration>mechae Zarae?</transliteration>
+        </sentence>
+        <sentence id="368">
+            <english>Between</english>
+            <amharic>መካከል</amharic>
+            <transliteration>mekakel</transliteration>
+        </sentence>
+        <sentence id="369">
+            <english>Between them</english>
+            <amharic>በእነርሱ መካከል</amharic>
+            <transliteration>be’inerisu mekakel</transliteration>
+        </sentence>
+        <sentence id="370">
+            <english>Outside</english>
+            <amharic>ውጭ</amharic>
+            <transliteration>wich’i</transliteration>
+        </sentence>
+
+        <sentence id="371">
+            <english>Outside the box</english>
+            <amharic>ከሳጥኑ ውጪ</amharic>
+            <transliteration>kesat’inu wich’ī</transliteration>
+        </sentence>
+        <sentence id="372">
+            <english>Far away</english>
+            <amharic>በጣም ሩቅ</amharic>
+            <transliteration>bet’ami ruk’</transliteration>
+        </sentence>
+        <sentence id="373">
+            <english>Excluding</english>
+            <amharic>ሳይጨምር</amharic>
+            <transliteration>seaichemir</transliteration>
+        </sentence>
+        <sentence id="374">
+            <english>Incuding</english>
+            <amharic>ጨምሮ</amharic>
+            <transliteration>chemiro</transliteration>
+        </sentence>
+        <sentence id="375">
+            <english>About</english>
+            <amharic>ስለ</amharic>
+            <transliteration>sile</transliteration>
+        </sentence>
+        <sentence id="376">
+            <english>About you</english>
+            <amharic>ስለ አንተ</amharic>
+            <transliteration>sile ānite</transliteration>
+        </sentence>
+        <sentence id="377">
+            <english>Direct</english>
+            <amharic>በቀጥታ</amharic>
+            <transliteration>bek’et’ita</transliteration>
+        </sentence>
+        <sentence id="378">
+            <english>Direct flight</english>
+            <amharic>ቀጥታ በረራ</amharic>
+            <transliteration>k’et’ita berera</transliteration>
+        </sentence>
+        <sentence id="379">
+            <english>Straight</english>
+            <amharic>ቀጥታ</amharic>
+            <transliteration>beketita</transliteration>
+        </sentence>
+        <sentence id="380">
+            <english>Go straight</english>
+            <amharic>ቀጥታ ይሂዱ</amharic>
+            <transliteration>ketita yihidu </transliteration>
+        </sentence>
+        <sentence id="381">
+            <english>at</english>
+            <amharic>በ</amharic>
+            <transliteration>be</transliteration>
+        </sentence>
+        <sentence id="382">
+            <english>At the moment</english>
+            <amharic>በወቅቱ</amharic>
+            <transliteration>bewek’itu</transliteration>
+        </sentence>
+        <sentence id="383">
+            <english>By</english>
+            <amharic>በ</amharic>
+            <transliteration>be</transliteration>
+        </sentence>
+        <sentence id="384">
+            <english>By the time</english>
+            <amharic>በጊዜው</amharic>
+            <transliteration>begīzēw</transliteration>
+        </sentence>
+        <sentence id="385">
+            <english>below/under</english>
+            <amharic>በታች</amharic>
+            <transliteration>betachi</transliteration>
+        </sentence>
+        <sentence id="386">
+            <english>Below the surface/under ground </english>
+            <amharic>ከመሬት በታች</amharic>
+            <transliteration>kemerēti betachi</transliteration>
+        </sentence>
+        <sentence id="387">
+            <english>After</english>
+            <amharic>በኋላ</amharic>
+            <transliteration>beḫwala</transliteration>
+        </sentence>
+        <sentence id="388">
+            <english>After that</english>
+            <amharic>ከዛ በኋላ</amharic>
+            <transliteration>keza beḫwala</transliteration>
+        </sentence>
+        <sentence id="389">
+            <english>Ahead of you</english>
+            <amharic>ከፊትህ</amharic>
+            <transliteration>kefitih</transliteration>
+        </sentence>
+        <sentence id="390">
+            <english>Ahead of</english>
+            <amharic>ከፊት</amharic>
+            <transliteration>kefeet</transliteration>
+        </sentence>
+        <sentence id="391">
+            <english>Before</english>
+            <amharic>በፊት</amharic>
+            <transliteration>befeet</transliteration>
+        </sentence>
+        <sentence id="392">
+            <english>Before that</english>
+            <amharic>ከዚያ በፊት</amharic>
+            <transliteration>kezīya befīt</transliteration>
+        </sentence>
+        <sentence id="393">
+            <english>Despite</english>
+            <amharic>ቢሆንም</amharic>
+            <transliteration>bīhonim</transliteration>
+        </sentence>
+        <sentence id="394">
+            <english>Despite the fact</english>
+            <amharic>ምንም እንኳ</amharic>
+            <transliteration>minimi inikwa</transliteration>
+        </sentence>
+        <sentence id="395">
+            <english>Across</english>
+            <amharic>ባሻገር</amharic>
+            <transliteration>bashager</transliteration>
+        </sentence>
+        <sentence id="396">
+            <english>Across the river</english>
+            <amharic>ወንዙን ተሻግሮ</amharic>
+            <transliteration>wenizun teshagro</transliteration>
+        </sentence>
+        <sentence id="397">
+            <english>Above</english>
+            <amharic>በላይ</amharic>
+            <transliteration>belayi</transliteration>
+        </sentence>
+        <sentence id="398">
+            <english>Above all</english>
+            <amharic>ከሁሉም በላይ</amharic>
+            <transliteration>kehulumi belayi</transliteration>
+        </sentence>
+        <sentence id="399">
+            <english>Around</english>
+            <amharic>አካባቢ</amharic>
+            <transliteration>ākababī</transliteration>
+        </sentence>
+        <sentence id="400">
+            <english>around here</english>
+            <amharic>እዚህ አካባቢ</amharic>
+            <transliteration>izīhi ākababī</transliteration>
+        </sentence>
+        <sentence id="401">
+            <english>Near/next to</english>
+            <amharic>አጠገብ</amharic>
+            <transliteration></transliteration>
+        </sentence>
+        <sentence id="402">
+            <english>Near the post office</english>
+            <amharic>ፖስታ ቤት አጠገብ</amharic>
+            <transliteration>posita bēti āt’egeb</transliteration>
+        </sentence>
+        <sentence id="403">
+            <english>Next to us</english>
+            <amharic>ከኛ አጠገብ</amharic>
+            <transliteration>keggna āt’egeb</transliteration>
+        </sentence>
+        <sentence id="404">
+            <english>until</english>
+            <amharic>እስከ</amharic>
+            <transliteration>isike</transliteration>
+        </sentence>
+        <sentence id="405">
+            <english>Like</english>
+            <amharic>እንደ</amharic>
+            <transliteration>inide</transliteration>
+        </sentence>
+        <sentence id="406">
+            <english>Like this</english>
+            <amharic>እንደዚህ</amharic>
+            <transliteration>inidezīh</transliteration>
+        </sentence>
+
+        <sentence id="407">
+            <english>with</english>
+            <amharic>ከ/ጋር</amharic>
+            <transliteration>ke/gar</transliteration>
+        </sentence>
+        <sentence id="408">
+            <english>With your family</english>
+            <amharic>ከቤተሰብዎ ጋር</amharic>
+            <transliteration>kebētesebiwo gar</transliteration>
+        </sentence>
+        <sentence id="409">
+            <english>beyond</english>
+            <amharic>ከ___ወዲያ</amharic>
+            <transliteration>ke___wediya</transliteration>
+        </sentence>
+        <sentence id="410">
+            <english>Beyond that</english>
+            <amharic>ከዚያ ወዲያ</amharic>
+            <transliteration>kezīyam wediya</transliteration>
+        </sentence>
+        <sentence id="411">
+            <english>Over</english>
+            <amharic>በላይ</amharic>
+            <transliteration>belayi</transliteration>
+        </sentence>
+        <sentence id="412">
+            <english>over the bridge</english>
+            <amharic>በድልድዩ ላይ</amharic>
+            <transliteration>bedildiyu layi</transliteration>
+        </sentence>
+        <sentence id="413">
+            <english>beneath/below</english>
+            <amharic>በታች</amharic>
+            <transliteration>betach</transliteration>
+        </sentence>
+        <sentence id="414">
+            <english>beneath the surface</english>
+            <amharic>ወለል በታች</amharic>
+            <transliteration>welel betach</transliteration>
+        </sentence>
+        <sentence id="415">
+            <english>Except</english>
+            <amharic>በስተቀር</amharic>
+            <transliteration>besteker</transliteration>
+        </sentence>
+        <sentence id="416">
+            <english>Behind</english>
+            <amharic>በኋላ</amharic>
+            <transliteration>behuwala</transliteration>
+        </sentence>
+        <sentence id="417">
+            <english>Except this</english>
+            <amharic>ከዚህ በስተቀር</amharic>
+            <transliteration>kezih besteker</transliteration>
+        </sentence>
+        <sentence id="418">
+            <english>Behind the tree</english>
+            <amharic>ከዛፉ ጀርባ</amharic>
+            <transliteration>kezafu bestejerba</transliteration>
+        </sentence>
+        <sentence id="419">
+            <english>Beside</english>
+            <amharic>ጎን/አጠገብ</amharic>
+            <transliteration>āt’egeb</transliteration>
+        </sentence>
+        <sentence id="420">
+            <english>Beside the stove</english>
+            <amharic>ከምድጃው አጠገብ</amharic>
+            <transliteration>kemidijaw āt’egeb</transliteration>
+        </sentence>
+        <sentence id="421">
+            <english>to the side of</english>
+            <amharic>ወደ ጎን</amharic>
+            <transliteration>wede gone</transliteration>
+        </sentence>
+        <sentence id="422">
+            <english>Down</english>
+            <amharic>ታች</amharic>
+            <transliteration>tach</transliteration>
+        </sentence>
+        <sentence id="423">
+            <english>Without</english>
+            <amharic>ያለ</amharic>
+            <transliteration>Yale</transliteration>
+        </sentence>
+        <sentence id="424">
+            <english>without them</english>
+            <amharic>ያለ እነሱ</amharic>
+            <transliteration>yale enesu</transliteration>
+        </sentence>
+        <sentence id="425">
+            <english>From</english>
+            <amharic>ከ</amharic>
+            <transliteration>ke</transliteration>
+        </sentence>
+        <sentence id="426">
+            <english>From the beginning</english>
+            <amharic>ከመጀመሪያው</amharic>
+            <transliteration>ke-meje-meriaw</transliteration>
+        </sentence>
+        <sentence id="427">
+            <english>To</english>
+            <amharic>ወደ</amharic>
+            <transliteration>Wede</transliteration>
+        </sentence>
+        <sentence id="428">
+            <english>To the left</english>
+            <amharic>ወደ ግራ</amharic>
+            <transliteration>wede gira</transliteration>
+        </sentence>
+        <sentence id="429">
+            <english>To the right</english>
+            <amharic>ወደ ቀኝ</amharic>
+            <transliteration>wede k’egn</transliteration>
+        </sentence>
+        <sentence id="430">
+            <english>Inside</english>
+            <amharic>ውስጥ</amharic>
+            <transliteration>wisit</transliteration>
+        </sentence>
+        <sentence id="431">
+            <english>Inside out</english>
+            <amharic>ከውስጥ ወደውጭ</amharic>
+            <transliteration>kewisit wedewich</transliteration>
+        </sentence>
+        <sentence id="432">
+            <english>Within</english>
+            <amharic>ውስጥ</amharic>
+            <transliteration>wisit</transliteration>
+        </sentence>
+        <sentence id="433">
+            <english>With in a year</english>
+            <amharic>በ አመት ውስጥ</amharic>
+            <transliteration>be āmeti wisit</transliteration>
+        </sentence>
+        <sentence id="434">
+            <english>But</english>
+            <amharic>ግን</amharic>
+            <transliteration>gin</transliteration>
+        </sentence>
+        <sentence id="435">
+            <english>But why</english>
+            <amharic>ግን ለምን</amharic>
+            <transliteration>gin lemin</transliteration>
+        </sentence>
+    </lesson>
+
+    <!--*************end of prepositions***********-->
+    <lesson id="11">
+        <sentence id="436">
+            <english>accept</english>
+            <amharic>መቀበል</amharic>
+            <transliteration>meqebel</transliteration>
+        </sentence>
+        <sentence id="437">
+            <english>allow</english>
+            <amharic>መፍቀድ</amharic>
+            <transliteration>mefqed</transliteration>
+        </sentence>
+        <sentence id="438">
+            <english>believe</english>
+            <amharic>ማመን</amharic>
+            <transliteration>mamen</transliteration>
+        </sentence>
+        <sentence id="439">
+            <english>borrow</english>
+            <amharic>መበደር</amharic>
+            <transliteration>mebeder</transliteration>
+        </sentence>
+        <sentence id="440">
+            <english>break</english>
+            <amharic>መስበር</amharic>
+            <transliteration>mesber</transliteration>
+        </sentence>
+        <sentence id="441">
+            <english>bring</english>
+            <amharic>ማምጣት</amharic>
+            <transliteration>mamtat</transliteration>
+        </sentence>
+        <sentence id="442">
+            <english>buy</english>
+            <amharic>መግዛት</amharic>
+            <transliteration>megzat</transliteration>
+        </sentence>
+        <sentence id="443">
+            <english>can/be able to</english>
+            <amharic>መቻል</amharic>
+            <transliteration>mechal</transliteration>
+        </sentence>
+        <sentence id="444">
+            <english>cancel</english>
+            <amharic>ማቁዋረጥ</amharic>
+            <transliteration>maquaret</transliteration>
+        </sentence>
+        <sentence id="445">
+            <english>change</english>
+            <amharic>መለወጥ</amharic>
+            <transliteration>melewet</transliteration>
+        </sentence>
+        <sentence id="446">
+            <english>clean</english>
+            <amharic>ማጽዳት</amharic>
+            <transliteration>matsidat</transliteration>
+        </sentence>
+        <sentence id="447">
+            <english>mabeter</english>
+            <amharic>ማበጠር</amharic>
+            <transliteration>mabeter</transliteration>
+        </sentence>
+        <sentence id="448">
+            <english>complain</english>
+            <amharic>ማጉረምረም</amharic>
+            <transliteration>maguremrem</transliteration>
+        </sentence>
+        <sentence id="449">
+            <english>cough</english>
+            <amharic>ማሳል</amharic>
+            <transliteration>masal</transliteration>
+        </sentence>
+        <sentence id="450">
+            <english>count</english>
+            <amharic>መቁጠር</amharic>
+            <transliteration>mequter</transliteration>
+        </sentence>
+        <sentence id="451">
+            <english>cut</english>
+            <amharic>መቁረጥ</amharic>
+            <transliteration>mequret</transliteration>
+        </sentence>
+        <sentence id="452">
+            <english>dance</english>
+            <amharic>መደነስ</amharic>
+            <transliteration>medenese</transliteration>
+        </sentence>
+        <sentence id="453">
+            <english>draw</english>
+            <amharic>መሳል</amharic>
+            <transliteration>mesal</transliteration>
+        </sentence>
+        <sentence id="454">
+            <english>drink</english>
+            <amharic>መጠጣት</amharic>
+            <transliteration>metetat</transliteration>
+        </sentence>
+        <sentence id="455">
+            <english>drive</english>
+            <amharic>መንዳት</amharic>
+            <transliteration>mendat</transliteration>
+        </sentence>
+        <sentence id="456">
+            <english>eat</english>
+            <amharic>መብላት</amharic>
+            <transliteration>meblat</transliteration>
+        </sentence>
+        <sentence id="457">
+            <english>explain</english>
+            <amharic>ማስረዳት</amharic>
+            <transliteration>masiredat</transliteration>
+        </sentence>
+        <sentence id="458">
+            <english>fall</english>
+            <amharic>መውደቅ</amharic>
+            <transliteration>mewdek</transliteration>
+        </sentence>
+        <sentence id="459">
+            <english>fill</english>
+            <amharic>መሙላት</amharic>
+            <transliteration>memulat</transliteration>
+        </sentence>
+        <sentence id="460">
+            <english>find</english>
+            <amharic>ማግኘት</amharic>
+            <transliteration>magnet</transliteration>
+        </sentence>
+        <sentence id="461">
+            <english>finish</english>
+            <amharic>መጨረስ</amharic>
+            <transliteration>mecheres</transliteration>
+        </sentence>
+        <sentence id="462">
+            <english>fit</english>
+            <amharic>መብቃት</amharic>
+            <transliteration>mebqat</transliteration>
+        </sentence>
+        <sentence id="463">
+            <english>fix</english>
+            <amharic>መጠገን</amharic>
+            <transliteration>metegen</transliteration>
+        </sentence>
+        <sentence id="464">
+            <english>fly</english>
+            <amharic>መብረር</amharic>
+            <transliteration>mebrer</transliteration>
+        </sentence>
+        <sentence id="465">
+            <english>forget</english>
+            <amharic>መርሳት</amharic>
+            <transliteration>mersat</transliteration>
+        </sentence>
+        <sentence id="466">
+            <english>give</english>
+            <amharic>መስጠት</amharic>
+            <transliteration>mestet</transliteration>
+        </sentence>
+        <sentence id="467">
+            <english>go</english>
+            <amharic>መሄድ</amharic>
+            <transliteration>mehed</transliteration>
+        </sentence>
+        <sentence id="468">
+            <english>have</english>
+            <amharic>መያዝ/መኖር</amharic>
+            <transliteration>meyaz/menor</transliteration>
+        </sentence>
+        <sentence id="469">
+            <english>hear</english>
+            <amharic>መስማት</amharic>
+            <transliteration>mesmat</transliteration>
+        </sentence>
+        <sentence id="470">
+            <english>hurt</english>
+            <amharic>መጉዳት</amharic>
+            <transliteration>megudat</transliteration>
+        </sentence>
+        <sentence id="471">
+            <english>know</english>
+            <amharic>ማወቅ</amharic>
+            <transliteration>maweq</transliteration>
+        </sentence>
+        <sentence id="472">
+            <english>learn</english>
+            <amharic>መማር</amharic>
+            <transliteration>memar</transliteration>
+        </sentence>
+        <sentence id="473">
+            <english>leave</english>
+            <amharic>መተው/መሄድ</amharic>
+            <transliteration>metew/mehead</transliteration>
+        </sentence>
+        <sentence id="474">
+            <english>listen</english>
+            <amharic>ማዳመጥ</amharic>
+            <transliteration>madamet</transliteration>
+        </sentence>
+        <sentence id="475">
+            <english>live</english>
+            <amharic>መኖር</amharic>
+            <transliteration>menor</transliteration>
+        </sentence>
+        <sentence id="476">
+            <english>look</english>
+            <amharic>መመልከት</amharic>
+            <transliteration>memelket</transliteration>
+        </sentence>
+        <sentence id="477">
+            <english>loose</english>
+            <amharic>ማጥፋት</amharic>
+            <transliteration>matfat</transliteration>
+        </sentence>
+        <sentence id="478">
+            <english>make</english>
+            <amharic>መስራት</amharic>
+            <transliteration>mesirat</transliteration>
+        </sentence>
+        <sentence id="479">
+            <english>need</english>
+            <amharic>መፈለግ</amharic>
+            <transliteration>mefeleg</transliteration>
+        </sentence>
+        <sentence id="480">
+            <english>open</english>
+            <amharic>መክፈት</amharic>
+            <transliteration>mekfet</transliteration>
+        </sentence>
+        <sentence id="481">
+            <english>close</english>
+            <amharic>መዝጋት</amharic>
+            <transliteration>mezgat</transliteration>
+        </sentence>
+        <sentence id="482">
+            <english>organize</english>
+            <amharic>ማጀራጀት</amharic>
+            <transliteration>maderajet</transliteration>
+        </sentence>
+        <sentence id="483">
+            <english>pay</english>
+            <amharic>መክፈል</amharic>
+            <transliteration>mekfel</transliteration>
+        </sentence>
+        <sentence id="484">
+            <english>play</english>
+            <amharic>መጫወት</amharic>
+            <transliteration>mechawet</transliteration>
+        </sentence>
+        <sentence id="485">
+            <english>put</english>
+            <amharic>ማስቀመጥ</amharic>
+            <transliteration>maskemet</transliteration>
+        </sentence>
+        <sentence id="486">
+            <english>rain</english>
+            <amharic>መዝነብ</amharic>
+            <transliteration>mezneb</transliteration>
+        </sentence>
+        <sentence id="487">
+            <english>read</english>
+            <amharic>ማንበብ</amharic>
+            <transliteration>manbeb</transliteration>
+        </sentence>
+        <sentence id="488">
+            <english>reply</english>
+            <amharic>መመለስ</amharic>
+            <transliteration>memeles</transliteration>
+        </sentence>
+        <sentence id="489">
+            <english>run</english>
+            <amharic>መሮጥ</amharic>
+            <transliteration>merot</transliteration>
+        </sentence>
+        <sentence id="490">
+            <english>say</english>
+            <amharic>ማለት</amharic>
+            <transliteration>malet</transliteration>
+        </sentence>
+        <sentence id="491">
+            <english>see</english>
+            <amharic>ማየት</amharic>
+            <transliteration>mayet</transliteration>
+        </sentence>
+        <sentence id="492">
+            <english>sell</english>
+            <amharic>መሸጥ</amharic>
+            <transliteration>meshet</transliteration>
+        </sentence>
+        <sentence id="493">
+            <english>send</english>
+            <amharic>መላክ</amharic>
+            <transliteration>melak</transliteration>
+        </sentence>
+        <sentence id="494">
+            <english>sign</english>
+            <amharic>መፈረም</amharic>
+            <transliteration>meferem</transliteration>
+        </sentence>
+        <sentence id="495">
+            <english>sing</english>
+            <amharic>መዘመር</amharic>
+            <transliteration>mezemer</transliteration>
+        </sentence>
+        <sentence id="496">
+            <english>sit</english>
+            <amharic>መቀመጥ</amharic>
+            <transliteration>mekemet</transliteration>
+        </sentence>
+        <sentence id="497">
+            <english>sleep</english>
+            <amharic>መተኛት</amharic>
+            <transliteration>metegnat</transliteration>
+        </sentence>
+        <sentence id="498">
+            <english>smoke</english>
+            <amharic>ማጨስ</amharic>
+            <transliteration>maches</transliteration>
+        </sentence>
+        <sentence id="499">
+            <english>speak</english>
+            <amharic>መናገር</amharic>
+            <transliteration>menager</transliteration>
+        </sentence>
+        <sentence id="500">
+            <english>spend</english>
+            <amharic>ማውጣት</amharic>
+            <transliteration>mawtat</transliteration>
+        </sentence>
+        <sentence id="501">
+            <english>stand</english>
+            <amharic>መቆም</amharic>
+            <transliteration>meqom</transliteration>
+        </sentence>
+        <sentence id="502">
+            <english>start/begin</english>
+            <amharic>መጀመር</amharic>
+            <transliteration>mejemer</transliteration>
+        </sentence>
+        <sentence id="503">
+            <english>study</english>
+            <amharic>ማጥናት</amharic>
+            <transliteration>matinat</transliteration>
+        </sentence>
+        <sentence id="504">
+            <english>succeed</english>
+            <amharic>መሳካት</amharic>
+            <transliteration>mesakat</transliteration>
+        </sentence>
+        <sentence id="505">
+            <english>swim</english>
+            <amharic>መዋኘት</amharic>
+            <transliteration>mewagnet</transliteration>
+        </sentence>
+        <sentence id="506">
+            <english>take</english>
+            <amharic>መውሰድ</amharic>
+            <transliteration>mewsed</transliteration>
+        </sentence>
+        <sentence id="507">
+            <english>talk</english>
+            <amharic>ማውራት</amharic>
+            <transliteration>mawrat</transliteration>
+        </sentence>
+        <sentence id="508">
+            <english>teach</english>
+            <amharic>ማስተማር</amharic>
+            <transliteration>mastemar</transliteration>
+        </sentence>
+        <sentence id="509">
+            <english>tell</english>
+            <amharic>መንገር</amharic>
+            <transliteration>meger</transliteration>
+        </sentence>
+        <sentence id="510">
+            <english>think</english>
+            <amharic>ማሰብ</amharic>
+            <transliteration>maseb</transliteration>
+        </sentence>
+        <sentence id="511">
+            <english>translate</english>
+            <amharic>መተርጎም</amharic>
+            <transliteration>metergom</transliteration>
+        </sentence>
+        <sentence id="512">
+            <english>travel</english>
+            <amharic>መጉዋዝ</amharic>
+            <transliteration>meguaz</transliteration>
+        </sentence>
+        <sentence id="513">
+            <english>try</english>
+            <amharic>መሞከር</amharic>
+            <transliteration>memoker</transliteration>
+        </sentence>
+        <sentence id="514">
+            <english>turn off</english>
+            <amharic>ማጥፋት</amharic>
+            <transliteration>matfat</transliteration>
+        </sentence>
+        <sentence id="515">
+            <english>turn on</english>
+            <amharic>ማብራት</amharic>
+            <transliteration>mabrat</transliteration>
+        </sentence>
+        <sentence id="516">
+            <english>understand</english>
+            <amharic>መረዳት</amharic>
+            <transliteration>meredat</transliteration>
+        </sentence>
+
+        <sentence id="517">
+            <english>use</english>
+            <amharic>መጠቀም</amharic>
+            <transliteration>metekem</transliteration>
+        </sentence>
+        <sentence id="518">
+            <english>wait</english>
+            <amharic>መጠበቅ</amharic>
+            <transliteration>metebek</transliteration>
+        </sentence>
+        <sentence id="519">
+            <english>wake up</english>
+            <amharic>መንቃት</amharic>
+            <transliteration>menqat</transliteration>
+        </sentence>
+        <sentence id="520">
+            <english>wish</english>
+            <amharic>መመኘት</amharic>
+            <transliteration>memegnet</transliteration>
+        </sentence>
+        <sentence id="521">
+            <english>watch</english>
+            <amharic>ማየት</amharic>
+            <transliteration>mayet</transliteration>
+        </sentence>
+        <sentence id="522">
+            <english>work</english>
+            <amharic>መስራት</amharic>
+            <transliteration>mesirat</transliteration>
+        </sentence>
+        <sentence id="523">
+            <english>worry</english>
+            <amharic>መጨነቅ</amharic>
+            <transliteration>mechenek</transliteration>
+        </sentence>
+        <sentence id="524">
+            <english>write</english>
+            <amharic>መጻፍ</amharic>
+            <transliteration>metsaf</transliteration>
+        </sentence>
+    </lesson>
+
+    <!-- ****end of verbs**********************************-->
+    <lesson id="12">
+        <sentence id="525">
+            <english>Aunt</english>
+            <amharic>አክስት</amharic>
+            <transliteration>akist</transliteration>
+        </sentence>
+        <sentence id="526">
+            <english>Brother</english>
+            <amharic>ወንድም</amharic>
+            <transliteration>wendim</transliteration>
+        </sentence>
+        <sentence id="527">
+            <english>Brother-in-law</english>
+            <amharic>የእህት ባል/የሚስት ወንድም</amharic>
+            <transliteration>ye’ihit bali/yemīsit wenidim</transliteration>
+        </sentence>
+        <sentence id="528">
+            <english>Children</english>
+            <amharic>ልጆች</amharic>
+            <transliteration>lijoch</transliteration>
+        </sentence>
+        <sentence id="529">
+            <english>Cousin</english>
+            <amharic>ያክስት ልጅ/የአጎት ልጅ</amharic>
+            <transliteration>ye akist lij/ye agot lij</transliteration>
+        </sentence>
+        <sentence id="530">
+            <english>daughter</english>
+            <amharic>ሴት ልጅ</amharic>
+            <transliteration>set lij</transliteration>
+        </sentence>
+        <sentence id="531">
+            <english>Father</english>
+            <amharic>አባት</amharic>
+            <transliteration>abaat</transliteration>
+        </sentence>
+        <sentence id="532">
+            <english>father-in-law</english>
+            <amharic>ኣማች</amharic>
+            <transliteration>amach</transliteration>
+        </sentence>
+        <sentence id="533">
+            <english>fiancé/fiancée</english>
+            <amharic>እጮኛ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="534">
+            <english>Grandchildren</english>
+            <amharic>የልጅ ልጆች</amharic>
+            <transliteration>yelij lijoch</transliteration>
+        </sentence>
+        <sentence id="535">
+            <english>Granddaughter</english>
+            <amharic>የልጅ ልጅ</amharic>
+            <transliteration>yelij lij</transliteration>
+        </sentence>
+        <sentence id="536">
+            <english>Grandfather</english>
+            <amharic>ወንድ አያት</amharic>
+            <transliteration>wenid ayat</transliteration>
+        </sentence>
+        <sentence id="537">
+            <english>Grandmother</english>
+            <amharic>ሴት አያት</amharic>
+            <transliteration>set ayat</transliteration>
+        </sentence>
+        <sentence id="538">
+            <english>Grandson</english>
+            <amharic>የልጅ ልጅ</amharic>
+            <transliteration>yelij lij</transliteration>
+        </sentence>
+        <sentence id="539">
+            <english>Husband</english>
+            <amharic>ባል</amharic>
+            <transliteration>bal</transliteration>
+        </sentence>
+        <sentence id="540">
+            <english>Mother</english>
+            <amharic>እናት</amharic>
+            <transliteration>Enat</transliteration>
+        </sentence>
+        <sentence id="541">
+            <english> Mother-in-law</english>
+            <amharic>የባለቤት እናት</amharic>
+            <transliteration>yebalebēt inat</transliteration>
+        </sentence>
+        <sentence id="542">
+            <english>Nephew/Niece</english>
+            <amharic>የእህት ልጅ/የወንድም ልጅ</amharic>
+            <transliteration>ye ihitlij/ ye wendim lij</transliteration>
+        </sentence>
+        <sentence id="543">
+            <english>parents</english>
+            <amharic>ወላጆች</amharic>
+            <transliteration>welajoch</transliteration>
+        </sentence>
+        <sentence id="544">
+            <english>Sister</english>
+            <amharic>እህት</amharic>
+            <transliteration>ihit</transliteration>
+        </sentence>
+        <sentence id="545">
+            <english>Sister-in-law</english>
+            <amharic>ምራት</amharic>
+            <transliteration>mirat</transliteration>
+        </sentence>
+        <sentence id="546">
+            <english>Son</english>
+            <amharic>ወንድ ልጅ</amharic>
+            <transliteration>wenid lij</transliteration>
+        </sentence>
+        <sentence id="547">
+            <english>Uncle</english>
+            <amharic>አጎት</amharic>
+            <transliteration>agot</transliteration>
+        </sentence>
+        <sentence id="548">
+            <english>Wife</english>
+            <amharic>ሚስት</amharic>
+            <transliteration>mist</transliteration>
+        </sentence>
+    </lesson>
+    <!--**************end of family***********************-->
+    <lesson id="13">
+        <sentence id="549">
+            <english>lightning</english>
+            <amharic>መብረቅ</amharic>
+            <transliteration>mebrek</transliteration>
+        </sentence>
+        <sentence id="550">
+            <english>heat</english>
+            <amharic>ሙቀት</amharic>
+            <transliteration>muket</transliteration>
+        </sentence>
+        <sentence id="551">
+            <english>warmer</english>
+            <amharic>ሞቃት</amharic>
+            <transliteration>mokat</transliteration>
+        </sentence>
+        <sentence id="552">
+            <english>wind Storm</english>
+            <amharic>አውሎ ነፋስ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="553">
+            <english>cold weather</english>
+            <amharic>ቀዝቃዛ አየር</amharic>
+            <transliteration>k’ezik’aza āyer</transliteration>
+        </sentence>
+        <sentence id="554">
+            <english>snowy</english>
+            <amharic>በረዶማ</amharic>
+            <transliteration>beredoma</transliteration>
+        </sentence>
+        <sentence id="555">
+            <english>snow</english>
+            <amharic>በረዶ</amharic>
+            <transliteration>Beredo</transliteration>
+        </sentence>
+        <sentence id="556">
+            <english>dry season</english>
+            <amharic>በጋ/ደረቅ ወቅት</amharic>
+            <transliteration>bega/derek wekit</transliteration>
+        </sentence>
+        <sentence id="557">
+            <english>freezing</english>
+            <amharic>በጣም ቀዝቃዛ</amharic>
+            <transliteration>betam kezikaza</transliteration>
+        </sentence>
+        <sentence id="558">
+            <english>cold</english>
+            <amharic>ቀዝቃዛ</amharic>
+            <transliteration>kezikaza</transliteration>
+        </sentence>
+        <sentence id="559">
+            <english>chill</english>
+            <amharic>ብርድ</amharic>
+            <transliteration>bird</transliteration>
+        </sentence>
+        <sentence id="560">
+            <english>thunder</english>
+            <amharic>ነጎድጓድ</amharic>
+            <transliteration>negodigwad</transliteration>
+        </sentence>
+        <sentence id="561">
+            <english>wind</english>
+            <amharic>ነፋስ</amharic>
+            <transliteration>nefas</transliteration>
+        </sentence>
+        <sentence id="562">
+            <english>windy</english>
+            <amharic>ነፋሻማ</amharic>
+            <transliteration>nefashama</transliteration>
+        </sentence>
+        <sentence id="563">
+            <english>freeze</english>
+            <amharic>ማቀዝቀዝ</amharic>
+            <transliteration>makezke</transliteration>
+        </sentence>
+        <sentence id="564">
+            <english>weather</english>
+            <amharic>የአየር ሁኔታ</amharic>
+            <transliteration>yeayer huneata</transliteration>
+        </sentence>
+        <sentence id="565">
+            <english>air</english>
+            <amharic>አየር</amharic>
+            <transliteration>ayer</transliteration>
+        </sentence>
+        <sentence id="566">
+            <english>winter</english>
+            <amharic>ክረምት</amharic>
+            <transliteration>kiremit</transliteration>
+        </sentence>
+        <sentence id="567">
+            <english>rain</english>
+            <amharic>ዝናብ</amharic>
+            <transliterationration>zinab</transliterationration>
+        </sentence>
+        <sentence id="568">
+            <english>rainy</english>
+            <amharic>ዝናባማ</amharic>
+            <transliteration>Zinabama</transliteration>
+        </sentence>
+        <sentence id="569">
+            <english>weather condtion</english>
+            <amharic>የአየር ሁኔታ</amharic>
+            <transliteration>yayer huneta</transliteration>
+        </sentence>
+        <sentence id="570">
+            <english>climate</english>
+            <amharic>የአየር ንብረት</amharic>
+            <transliteration>ye-ayer nibret</transliteration>
+        </sentence>
+        <sentence id="571">
+            <english>cloud</english>
+            <amharic>ደመና</amharic>
+            <transliteration>demenama</transliteration>
+        </sentence>
+        <sentence id="572">
+            <english>cloudy</english>
+            <amharic>ደመናማ</amharic>
+            <transliteration>demena ma</transliteration>
+        </sentence>
+        <sentence id="573">
+            <english>foggy</english>
+            <amharic>ጭጋጋማ</amharic>
+            <transliteration>chi'gagama</transliteration>
+        </sentence>
+        <sentence id="574">
+            <english>fog</english>
+            <amharic>ጭጋግ</amharic>
+            <transliteration>chi'gag</transliteration>
+        </sentence>
+        <sentence id="575">
+            <english>sun</english>
+            <amharic>ፀሐይ</amharic>
+            <transliteration>tsehay</transliteration>
+        </sentence>
+        <sentence id="576">
+            <english>sunny</english>
+            <amharic>ፀሐያማ</amharic>
+            <transliteration>tsehayama</transliteration>
+        </sentence>
+    </lesson>
+    <!--******************end of weather*******************-->
+    <lesson id="14">
+        <sentence id="577">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="578">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="579">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="580">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="581">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="582">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="583">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="584">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="585">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="586">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="587">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="588">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="589">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="590">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="591">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="592">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="593">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="594">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="595">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="596">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="597">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="598">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="599">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="600">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="601">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="602">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="603">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="604">
+            <english> </english>
+            <amharic> </amharic>
+            <transliteration> </transliteration>
+        </sentence>
+
+    </lesson>-->
+
+</sentences>
+
+
+
+
