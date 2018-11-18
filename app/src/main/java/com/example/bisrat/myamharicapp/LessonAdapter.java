@@ -56,7 +56,7 @@ public class LessonAdapter extends ArrayAdapter<Sentence> {
         viewHolder.english.setText(sentence.english);
         viewHolder.amharic.setText(sentence.amharic);
         //viewHolder.transliteration.setText(sentence.transliteration);
-        viewHolder.speaker.setImageResource(R.drawable.speaker_loraange);
+        viewHolder.speaker.setImageResource(R.drawable.speaker_lightorange);
         // Return the completed view to render on screen
         return convertView;
     }
