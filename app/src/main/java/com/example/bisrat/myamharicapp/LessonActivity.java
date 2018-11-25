@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -26,6 +27,7 @@ public class LessonActivity extends AppCompatActivity {
     private LessonAdapter lAdapter;
     ArrayList<Sentence> sentences = new ArrayList<Sentence>();
     ArrayList<Sentence> sentenceList = new ArrayList<Sentence>();
+
 // for audio purposes
     ArrayList<String> arrayList;
     MediaPlayer mPlayer ;
@@ -57,27 +59,87 @@ public class LessonActivity extends AppCompatActivity {
         ArrayList<String> translitrationOnly = new ArrayList<>();
         final ArrayList<String> audioOnly = new ArrayList<>();
 
-        // get the audio from raw file
+
         Field[] fields = R.raw.class.getFields();
 
-        for ( int i = 0; i< fields.length; i++ ){
-            audioOnly.add (fields[i].getName());
+        for ( int i = 0; i < fields.length; i++ ){
+            String audioName = fields[i].getName();
+
+            if (lessonNum == 1) {
+
+                if ( audioName.startsWith("grt")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 2) {
+                if ( audioName.startsWith("exp")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 3) {
+                if ( audioName.startsWith("num")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 4) {
+                if ( audioName.startsWith("dir")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 5) {
+                if ( audioName.startsWith("tra")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 6) {
+                if ( audioName.startsWith("tym")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 7) {
+                if ( audioName.startsWith("day")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 8) {
+                if ( audioName.startsWith("cloz")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 9) {
+                if ( audioName.startsWith("fud")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 10) {
+                if ( audioName.startsWith("prep")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 11) {
+                if ( audioName.startsWith("verb")){
+                    audioOnly.add(audioName);
+                }
+            }else if (lessonNum == 12) {
+                if ( audioName.startsWith("fam")){
+                    audioOnly.add(audioName);
+                }
+            }
+             else if(lessonNum == 13) {
+                if ( audioName.startsWith("wea")){
+                    audioOnly.add(audioName);
+                }
+            }
+
         }
 
-        // populate all english , amharic and transliteration lists
+
+        // populate all english , amharic and audio lists
         for (Sentence sentence : sentences) {
 
             englishOnly.add(sentence.english);
             amharicOnly.add(sentence.amharic);
             //translitrationOnly.add(sentence.transliteration);
-            audioOnly.add(sentence.audioFile);
+            //audioOnly.add(sentence.audioFile);
         }
 
-        // create a sentence and add it to the list
 
         for (int i =0; i < englishOnly.size(); i++){
             Sentence sent = new Sentence(englishOnly.get(i), amharicOnly.get(i)
                     ,audioOnly.get(i));
+           // audioOnly.add (fields[i].getName());
+
+           // Log.i("DEBUG" ,"audioOnlySize"+ String.valueOf(audioOnly.size()));
             //bind all strings in an array
             sentenceList.add(sent);
         }
@@ -89,24 +151,75 @@ public class LessonActivity extends AppCompatActivity {
         // sets the view to the adapter
         mDetailTV.setAdapter(lAdapter);
 
+
         // on click listener
         mDetailTV.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
-                if (mPlayer != null){
-                    mPlayer.release();
+
+                // audio prefix according to lesson number
+                String audioPrefix = "";
+                if (lessonNum == 1){
+                    audioPrefix = "grt";
+                }else if ( lessonNum == 2){
+                    audioPrefix = "exp";
+                }else if ( lessonNum == 3){
+                    audioPrefix = "num";
+                }else if ( lessonNum == 4){
+                    audioPrefix = "dir";
+                }else if ( lessonNum == 5){
+                    audioPrefix = "tra";
+                }else if ( lessonNum == 6){
+                    audioPrefix = "tym";
+                }else if ( lessonNum == 7){
+                    audioPrefix = "day";
+                }else if ( lessonNum == 8){
+                    audioPrefix = "cloz";
+                }else if ( lessonNum == 9){
+                    audioPrefix = "fud";
+                }else if ( lessonNum == 10){
+                    audioPrefix = "prep";
+                }else if ( lessonNum == 11){
+                    audioPrefix = "verb";
+                }else if ( lessonNum == 12){
+                    audioPrefix = "fam";
+                }else if ( lessonNum == 13){
+                    audioPrefix = "wea";
                 }
 
-                int resid = getResources().getIdentifier(audioOnly.get(i),"raw",
+                if (mPlayer != null){
+                    mPlayer.release();
+                    mPlayer = null;
+                }
+                Log.i("DEBUG" ,"audioOnlySize"+ String.valueOf(audioOnly.size()));
+                Log.i("DEBUG" ,"audioOnly.get(i) "+ String.valueOf(audioOnly.get(i)));
+
+               // String audioFile = getAudio(audioOnly,audioPrefix + 1) ;
+                int resid = getResources().getIdentifier(getAudio(audioOnly,audioPrefix + 1+i),"raw",
                         getPackageName());
+                //int resid = getResources().getIdentifier(audioOnly.get(i),"raw",
+                      //  getPackageName());
                 mPlayer = MediaPlayer.create(LessonActivity.this,resid);
                 mPlayer.start();
+
             }
         });
 
     }
 
+    public String getAudio( ArrayList<String> audioList ,String wantedFileName) {
 
+        for ( int i = 0 ; i < audioList.size();i++){
+            String audioName = audioList.get(i);
+            int indexOfFile;
+            //Log.i("DEBUG" ,"audioOnlySize"+ String.valueOf(audioOnly.size()));
+            Log.i("DEBUG" ,"audioName "+ audioName);
+            if ( audioName.indexOf(wantedFileName) >= 0 || audioName != null){
+            return audioName;
+        }
+    }
+        return audioList.get(0);
+}
 
 
     // Instantiates an Xml pull parser, receives the data from file

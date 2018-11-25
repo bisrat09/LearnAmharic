@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Amharic</string>
+    <string name="author_Title">Developer</string>
+    <string name="app_version">2.0</string>
+    <string name="summary_about"> LinguaAmharic is a free Amharic language learning android application
+    for designed for English speakers.\n \nAmharic,the official working language of Ethiopia along
+        with English, is spoken by around 26 million people.
+</string>
+    <string name="storage_title">Storage</string>
+    <string name="scope_title">Scope</string>
+    <string name="author_name">Bisrat Belayneh
+             belayb@uw.edu</string>
+    <string name="scope_summary">
+    \nThis version provides translations for 574 phrases and words
+    in 13 categories with clickable audio.\n\nUsage Variations in gender and
+    singular vs plural addressing is indicated next to each English word.
+    \n\nCategory search is supported.\n\nThis version supports Android phones only.
+    </string>
+    <string name="title_version">Version</string>
+    <string name="pref_header_about">About</string>
+    <string name="storage_space">38MB</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="summary_support">I would love to hear your feedback!</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+
 </resources>
