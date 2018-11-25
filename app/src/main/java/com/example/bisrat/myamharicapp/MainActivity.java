@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Amharic");
+        actionBar.setTitle(R.string.Main_title);
 
         title = new String[]{"Greetings  |  ሰላምታ", "Expressions  |  አባባሎች", "Numbers  |  ቁጥሮች",
                 "Directions  |  አቅጣጫ", "Travel  |  ጉዞ", "Time  |  ጊዜ", "Days & Months  |  ቀናት እና ወራት",
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 "Family  |  ቤተሰብ","Weather  |  የአየር ሁኔታ"};
 
         icon = new int[]{
-                R.drawable.greet_phone, R.drawable.expressions, R.drawable.five,
+                R.drawable.chat, R.drawable.expressions, R.drawable.five,
                 R.drawable.directions, R.drawable.travel, R.drawable.clock_yellow, R.drawable.calendar,
                 R.drawable.cloth,R.drawable.food_burger,R.drawable.preposition, R.drawable.verb, R.drawable.family,
                 R.drawable.weather

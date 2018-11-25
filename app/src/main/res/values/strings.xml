@@ -1,13 +1,14 @@
 <resources>
-    <string name="app_name">Amharic</string>
+    <string name="app_name">MyAmharicPal</string>
     <string name="author_Title">Developer</string>
     <string name="app_version">2.0</string>
-    <string name="summary_about"> LinguaAmharic is a free Amharic language learning android application
+    <string name="summary_about"> MyAmharicPal is a free Amharic language learning android application
     for designed for English speakers.\n \nAmharic,the official working language of Ethiopia along
         with English, is spoken by around 26 million people.
 </string>
     <string name="storage_title">Storage</string>
     <string name="scope_title">Scope</string>
+    <string name="Main_title">Lessons</string>
     <string name="author_name">Bisrat Belayneh
              belayb@uw.edu</string>
     <string name="scope_summary">
