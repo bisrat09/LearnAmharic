@@ -1,15 +1,16 @@
-package com.example.bisrat.myamharicapp;
 
-/* ---------------------------------------------------------
+
+/*
  * MainActivity.java is the point of entry to the app.
  * The first program to run when app is launched.
  * Parent class to all other activities
  * Extends the AppCompatActivity base class to
- * use the action bar features of support library
+   use the action bar features of support library
  * written by bisrat belayneh
  * Date 11/26/2018
- * ------------------------------------------------------------
-}*/
+
+*/
+package com.example.bisrat.myamharicapp;
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;

@@ -1,6 +1,13 @@
+
+/* LessonActivity.java
+ * displays the details of the a particular lesson in a separate screen
+ * receives the lesson number from mainActivity,
+ * Extends the AppCompatActivity base class to
+   use the action bar features of support library
+ * written by bisrat belayneh
+ * Date 11/26/2018
+ */
 package com.example.bisrat.myamharicapp;
-
-
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -18,20 +25,24 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 import android.media.MediaPlayer;
-//  displays the details of the a particular lesson in a separate screen
+
 
 public class LessonActivity extends AppCompatActivity {
 
-    private int lessonNum = 0;
-    private ListView listView;
-    private LessonAdapter lAdapter;
+    private int lessonNum = 0; // holds the lesson selected from mainActivity
+    private LessonAdapter lAdapter; // adapter for the sentences
     ArrayList<Sentence> sentences = new ArrayList<Sentence>();
-    ArrayList<Sentence> sentenceList = new ArrayList<Sentence>();
+    ArrayList<Sentence> sentenceList = new ArrayList<Sentence>(); // used to pass ot to adapter
 
-// for audio purposes
+    // for audio purposes
     ArrayList<String> arrayList;
     MediaPlayer mPlayer ;
-
+    //---------------------------------------------------------------------------------
+    //OnCreate() method
+    // Called when the lesson activity is first created.
+    // does all the required static set up:
+    // creates views, bind data to lists and plays audio file selected
+    //---------------------------------------------------------------------------------
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,12 +67,14 @@ public class LessonActivity extends AppCompatActivity {
         // make a list for each type of sentence
         ArrayList<String> englishOnly = new ArrayList<>();
         ArrayList<String> amharicOnly = new ArrayList<>();
-        ArrayList<String> translitrationOnly = new ArrayList<>();
+        //ArrayList<String> translitrationOnly = new ArrayList<>();
         final ArrayList<String> audioOnly = new ArrayList<>();
 
-
+          // make an array to get the audio files from database
         Field[] fields = R.raw.class.getFields();
 
+        // if audio belongs to the current lesson add it to audio list
+        // for that lesson
         for ( int i = 0; i < fields.length; i++ ){
             String audioName = fields[i].getName();
 
@@ -124,15 +137,15 @@ public class LessonActivity extends AppCompatActivity {
         }
 
 
-        // populate all english , amharic and audio lists
+        // populate all english , amharic lists in sentence object
         for (Sentence sentence : sentences) {
 
             englishOnly.add(sentence.english);
             amharicOnly.add(sentence.amharic);
-           
         }
 
-
+        // create a sentence and populate it with the corresponding English,Amharic,and audio
+        // add it to sentence list for later use on adapter
         for (int i =0; i < englishOnly.size(); i++){
             Sentence sent = new Sentence(englishOnly.get(i), amharicOnly.get(i)
                     ,audioOnly.get(i));
@@ -147,13 +160,15 @@ public class LessonActivity extends AppCompatActivity {
         // sets the view to the adapter
         mDetailTV.setAdapter(lAdapter);
 
-
-        // on click listener
+        // onItemClick() method
+        // puts the listView on click listener
+        // listens to a speaker icon click from list and play the corresponding audio
         mDetailTV.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
               int offset = 0;
-                // audio prefix according to lesson number
+                // set audio prefix according to lesson number
+                // start the lesson at the right index using offset
                 String audioPrefix = "";
                 if (lessonNum == 1){
                     audioPrefix = "grt";
@@ -193,19 +208,18 @@ public class LessonActivity extends AppCompatActivity {
                     offset = 525;
                 }else if ( lessonNum == 13){
                     audioPrefix = "wea";
-                    offset =549;
+                    offset = 549;
                 }
-
+                // clear media player for use
                 if (mPlayer != null){
                     mPlayer.release();
                     mPlayer = null;
                 }
-
+               // retrieve the audio resource id
                 int resid = getResources().getIdentifier(getAudio(audioOnly,
                         audioPrefix + (offset + i) ),"raw",
                         getPackageName());
-                Log.i("DEBUG", "resid " +  String.valueOf(resid));
-
+                // pass the resource id to media player and play it
                 mPlayer = MediaPlayer.create(LessonActivity.this,resid);
                 mPlayer.start();
 
@@ -213,9 +227,15 @@ public class LessonActivity extends AppCompatActivity {
         });
 
     }
+    //---------------------------------------------------------------------------
+    // getAudio() method
+    // receives audio list arrayList and a string file name parameters
+    // returns a audio file name from the list that has the same name as the
+    // parameter passed to it
+    //-------------------------------------------------------------------------------
 
     public String getAudio( ArrayList<String> audioList ,String wantedFileName) {
-        Log.i("DEBUG" ,"wantedName "+ wantedFileName);
+
         for ( int i = 0 ; i < audioList.size();i++){
             String audioName = audioList.get(i);
 
@@ -254,8 +274,12 @@ public class LessonActivity extends AppCompatActivity {
     }
 
     //---------------------------------------------------------------------------------
+    // processParsing() method
     // Takes the input data from parser object and steps through the lessons and
-    //  sentences , populates sentence list and returns it
+    // sentences , populates sentence list and returns it
+    // throws IOException and XMLPullParserException
+    //---------------------------------------------------------------------------------
+
     private List<Sentence> processParsing(XmlPullParser parser) throws IOException, XmlPullParserException {
 
         int eventType = parser.getEventType(); // returns the event type ex doc start,tag start etc
@@ -293,7 +317,6 @@ public class LessonActivity extends AppCompatActivity {
             eventType = parser.next(); // advances parser
 
         }
-        //Log.i("DEBUG", String.valueOf(sentences.size()));
 
         return sentences;
     }

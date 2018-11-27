@@ -1,3 +1,12 @@
+
+/* MainAdapter.java
+ * custom adapter class to describe the process of converting sentence object to a View
+ * Extends BaseAdapter class to implement the specialized ListAdapter interface
+ * come handy to easily manage the behaviour of the ListViews and their items
+ * written by bisrat belayneh
+ * Date 11/26/2018
+ */
+
 package com.example.bisrat.myamharicapp;
 
 
@@ -9,20 +18,17 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-// custom adapter class to describe the process of converting
-// sentence object to a View
+
 public class MainAdapter extends BaseAdapter {
 
-    // vars
-    Context mContext;
-    LayoutInflater inflater;
-    List<Model> modellist;
-    ArrayList<Model> arrayList;
+    Context mContext;    // the activity in which adapater will be used
+    LayoutInflater inflater; // to inflate views per the model
+    List<Model> modellist;  // list of model objects
+    ArrayList<Model> arrayList; // the list that holds the populated data
 
     // constructors
 
@@ -56,9 +62,13 @@ public class MainAdapter extends BaseAdapter {
     public long getItemId(int i) {
         return i;
     }
-
+   //--------------------------------------------------------------------------------
+    // getView() method
     // returns the completed view to render to the screen with
     // the lesson selected from screen
+    // we don't call this method directly, just need to implement it
+    // to tell the parent view how to generate the item's view.
+    //---------------------------------------------------------------------------------
     @Override
     public View getView(final int position, View view, ViewGroup parent) {
 
@@ -81,7 +91,14 @@ public class MainAdapter extends BaseAdapter {
         holder.mTitleTv.setText(modellist.get(position).getTitle());
         holder.mIconIv.setImageResource(modellist.get(position).getIcon());
 
-        // list view item clicks
+        //--------------------------------------------------------------------------
+        // onClick() method
+        //takes a view object and returns nothing
+        // list view item clicks puts lesson titles on click listener
+        // launches a second activity when title is clicked
+        // populates the action bar with lesson title in second activity
+        // associates a lesson number to the new activity
+        //------------------------------------------------------------------------
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -182,8 +199,12 @@ public class MainAdapter extends BaseAdapter {
         });
         return view;
     }
-
+   //--------------------------------------------------------------------------
+    // filter() method
+    //takes a string and returns nothing
     //filters the list with the characters typed in the search bar
+    //------------------------------------------------------------------------
+
     public void filter(String charText){
         charText = charText.toLowerCase(Locale.getDefault());
         modellist.clear();

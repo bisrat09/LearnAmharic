@@ -24,14 +24,20 @@ public class LessonAdapter extends ArrayAdapter<Sentence> {
         super(context,R.layout.lesson_row, sents);
     }
 
-//
+//-------------------------------------------------------------------------------
+// getView() Method
+// uses a viewHolder object to cache and reuse a view when user scrolls up  or down
+// views that are no longer on the current screen of the user are recycled
+// takes the index, view and viewGroup and returns
+// Populates english, amharic and audio data from the data object via the viewHolder object
+//-----------------------------------------------------------------------------
 
     @Override
     public View getView(int position,  View convertView, ViewGroup parent) {
 
         // Get the data item for this position
         Sentence sentence = getItem(position);
-        //Context vContext = convertView.getContext();
+
         // Check if an existing view is being reused, otherwise inflate the view
         ViewHolder viewHolder; // view lookup cache stored in tag
         if (convertView == null) {
