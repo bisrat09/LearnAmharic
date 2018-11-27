@@ -1,15 +1,14 @@
 package com.example.bisrat.myamharicapp;
 
-/*import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+/* ---------------------------------------------------------
+ * MainActivity.java is the point of entry to the app.
+ * The first program to run when app is launched.
+ * Parent class to all other activities
+ * Extends the AppCompatActivity base class to
+ * use the action bar features of support library
+ * written by bisrat belayneh
+ * Date 11/26/2018
+ * ------------------------------------------------------------
 }*/
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
@@ -19,14 +18,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Adapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.support.v7.widget.SearchView;
-import android.widget.TextView;
-import android.widget.Toast;
-
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -72,6 +65,13 @@ public class MainActivity extends AppCompatActivity {
 
         listView.setAdapter(adapter);
     }
+    /*-----------------------------------------------------------------------------
+     * onCreateOptionsMenu method
+     * takes Menu object and returns boolean
+     * inflates the menu , binds search action , takes string from user
+     * and filters lesson title , returns true on success
+     ----------------------------------------------------------------------------
+     */
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -98,7 +98,13 @@ public class MainActivity extends AppCompatActivity {
         });
         return true;
     }
-
+ /*---------------------------------------------------------------------------------
+ * onOptionsItemSelected method
+ * takes MenuItem object and returns boolean
+ * sets up the intent to launch an activity when Settings button is clicked
+ * launches the SettingsPrefActivity class
+ * ----------------------------------------------------------------------------------
+ */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();

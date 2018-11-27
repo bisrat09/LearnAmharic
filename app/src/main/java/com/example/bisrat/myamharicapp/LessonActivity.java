@@ -129,18 +129,14 @@ public class LessonActivity extends AppCompatActivity {
 
             englishOnly.add(sentence.english);
             amharicOnly.add(sentence.amharic);
-            //translitrationOnly.add(sentence.transliteration);
-            //audioOnly.add(sentence.audioFile);
+           
         }
 
 
         for (int i =0; i < englishOnly.size(); i++){
             Sentence sent = new Sentence(englishOnly.get(i), amharicOnly.get(i)
                     ,audioOnly.get(i));
-           // audioOnly.add (fields[i].getName());
 
-           // Log.i("DEBUG" ,"audioOnlySize"+ String.valueOf(audioOnly.size()));
-            //bind all strings in an array
             sentenceList.add(sent);
         }
 
@@ -156,49 +152,60 @@ public class LessonActivity extends AppCompatActivity {
         mDetailTV.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
-
+              int offset = 0;
                 // audio prefix according to lesson number
                 String audioPrefix = "";
                 if (lessonNum == 1){
                     audioPrefix = "grt";
+                    offset = 1;
                 }else if ( lessonNum == 2){
                     audioPrefix = "exp";
+                    offset = 52;
                 }else if ( lessonNum == 3){
                     audioPrefix = "num";
+                    offset = 93;
                 }else if ( lessonNum == 4){
                     audioPrefix = "dir";
+                    offset = 119;
                 }else if ( lessonNum == 5){
                     audioPrefix = "tra";
+                    offset = 165;
                 }else if ( lessonNum == 6){
                     audioPrefix = "tym";
+                    offset = 192;
                 }else if ( lessonNum == 7){
                     audioPrefix = "day";
+                    offset = 219;
                 }else if ( lessonNum == 8){
                     audioPrefix = "cloz";
+                    offset = 238;
                 }else if ( lessonNum == 9){
                     audioPrefix = "fud";
+                    offset = 290;
                 }else if ( lessonNum == 10){
                     audioPrefix = "prep";
+                    offset = 362;
                 }else if ( lessonNum == 11){
                     audioPrefix = "verb";
+                    offset = 436;
                 }else if ( lessonNum == 12){
                     audioPrefix = "fam";
+                    offset = 525;
                 }else if ( lessonNum == 13){
                     audioPrefix = "wea";
+                    offset =549;
                 }
 
                 if (mPlayer != null){
                     mPlayer.release();
                     mPlayer = null;
                 }
-                Log.i("DEBUG" ,"audioOnlySize"+ String.valueOf(audioOnly.size()));
-                Log.i("DEBUG" ,"audioOnly.get(i) "+ String.valueOf(audioOnly.get(i)));
 
-               // String audioFile = getAudio(audioOnly,audioPrefix + 1) ;
-                int resid = getResources().getIdentifier(getAudio(audioOnly,audioPrefix + 1+i),"raw",
+                int resid = getResources().getIdentifier(getAudio(audioOnly,
+                        audioPrefix + (offset + i) ),"raw",
                         getPackageName());
-                //int resid = getResources().getIdentifier(audioOnly.get(i),"raw",
-                      //  getPackageName());
+                Log.i("DEBUG", "resid " +  String.valueOf(resid));
+
                 mPlayer = MediaPlayer.create(LessonActivity.this,resid);
                 mPlayer.start();
 
@@ -208,23 +215,24 @@ public class LessonActivity extends AppCompatActivity {
     }
 
     public String getAudio( ArrayList<String> audioList ,String wantedFileName) {
-
+        Log.i("DEBUG" ,"wantedName "+ wantedFileName);
         for ( int i = 0 ; i < audioList.size();i++){
             String audioName = audioList.get(i);
-            int indexOfFile;
-            //Log.i("DEBUG" ,"audioOnlySize"+ String.valueOf(audioOnly.size()));
-            Log.i("DEBUG" ,"audioName "+ audioName);
-            if ( audioName.indexOf(wantedFileName) >= 0 || audioName != null){
+
+            if ( audioName != null && audioName.equalsIgnoreCase(wantedFileName) ){
+
             return audioName;
         }
     }
         return audioList.get(0);
 }
 
-
+     //---------------------------------------------------------------------------
+    // ParseXML() method
     // Instantiates an Xml pull parser, receives the data from file
     // and pass it to parser, calls process parser for further data
     // processing
+    //-------------------------------------------------------------------------------
     private void parseXML() {
         XmlPullParserFactory parserFactory;
         try {
@@ -245,7 +253,7 @@ public class LessonActivity extends AppCompatActivity {
 
     }
 
-
+    //---------------------------------------------------------------------------------
     // Takes the input data from parser object and steps through the lessons and
     //  sentences , populates sentence list and returns it
     private List<Sentence> processParsing(XmlPullParser parser) throws IOException, XmlPullParserException {
