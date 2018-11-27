@@ -1,8 +1,9 @@
 
-/* MainAdapter.java
- * custom adapter class to describe the process of converting sentence object to a View
+/** MainAdapter.java
+ * custom adapter class created to describe the process of converting model object to a View
  * Extends BaseAdapter class to implement the specialized ListAdapter interface
  * come handy to easily manage the behaviour of the ListViews and their items
+ * starts new activity up on click on main view
  * written by bisrat belayneh
  * Date 11/26/2018
  */
@@ -199,11 +200,12 @@ public class MainAdapter extends BaseAdapter {
         });
         return view;
     }
-   //--------------------------------------------------------------------------
-    // filter() method
-    //takes a string and returns nothing
-    //filters the list with the characters typed in the search bar
-    //------------------------------------------------------------------------
+   /**-------------------------------------------------------------------------
+    *filter() method
+    *takes a string and returns nothing
+    * filters the list with the characters typed in the search bar
+    ------------------------------------------------------------------------
+    */
 
     public void filter(String charText){
         charText = charText.toLowerCase(Locale.getDefault());

@@ -1,3 +1,10 @@
+
+/** Sentence.java
+ * constructs sentence object with english, amharic and audio file field
+   for adapter and view to display details of the lesson selected
+ * written by bisrat belayneh
+ * Date 11/26/2018
+ */
 package com.example.bisrat.myamharicapp;
 
 // Defines the sentence model object for later use in the adapter
@@ -22,10 +29,6 @@ public class Sentence {
         this.audioFile = audioFile;
     }
 
-    // returns sentence id
-
-    // public int sentenceId;
-
 
     public String getEnglish() {
         return english;
@@ -48,9 +51,7 @@ public class Sentence {
 
     }
 
-
     // sets the sentences id
-
     public void setId(int id) {
         this.id = id;
     }

@@ -1,8 +1,11 @@
+/** Model.java
+ * constructs model object with title and icon field
+   for adapter and view to display categories of lessons
+ * written by bisrat belayneh
+ * Date 11/26/2018
+ */
 package com.example.bisrat.myamharicapp;
 
-
-// constructs model object with title and icon field
-// for adapter and view to display
 public class Model {
 
 

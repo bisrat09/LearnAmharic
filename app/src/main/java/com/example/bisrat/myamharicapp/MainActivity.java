@@ -1,6 +1,5 @@
 
-
-/*
+/**
  * MainActivity.java is the point of entry to the app.
  * The first program to run when app is launched.
  * Parent class to all other activities
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         listView.setAdapter(adapter);
     }
-    /*-----------------------------------------------------------------------------
+    /**-----------------------------------------------------------------------------
      * onCreateOptionsMenu method
      * takes Menu object and returns boolean
      * inflates the menu , binds search action , takes string from user
@@ -99,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         });
         return true;
     }
- /*---------------------------------------------------------------------------------
+ /**---------------------------------------------------------------------------------
  * onOptionsItemSelected method
  * takes MenuItem object and returns boolean
  * sets up the intent to launch an activity when Settings button is clicked

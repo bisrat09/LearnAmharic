@@ -1,3 +1,13 @@
+
+/** LessonAdapter.java
+ * displays the details of the a particular lesson in a separate screen
+ * receives the lesson number from mainActivity,
+ * Extends the ArrayAdapter base class to
+   use the action bar features of support library
+ * written by bisrat belayneh
+ * Date 11/26/2018
+ */
+
 package com.example.bisrat.myamharicapp;
 
 import android.widget.ArrayAdapter;
@@ -24,13 +34,14 @@ public class LessonAdapter extends ArrayAdapter<Sentence> {
         super(context,R.layout.lesson_row, sents);
     }
 
-//-------------------------------------------------------------------------------
-// getView() Method
-// uses a viewHolder object to cache and reuse a view when user scrolls up  or down
-// views that are no longer on the current screen of the user are recycled
-// takes the index, view and viewGroup and returns
-// Populates english, amharic and audio data from the data object via the viewHolder object
-//-----------------------------------------------------------------------------
+/**------------------------------------------------------------------------------
+ * getView() Method
+ *uses a viewHolder object to cache and reuse a view when user scrolls up  or down
+ * views that are no longer on the current screen of the user are recycled
+ *takes the index, view and viewGroup and returns
+ * Populates english, amharic and audio data from the data object via the viewHolder object
+-----------------------------------------------------------------------------
+ */
 
     @Override
     public View getView(int position,  View convertView, ViewGroup parent) {

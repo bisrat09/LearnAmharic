@@ -1,5 +1,5 @@
 
-/* LessonActivity.java
+/** LessonActivity.java
  * displays the details of the a particular lesson in a separate screen
  * receives the lesson number from mainActivity,
  * Extends the AppCompatActivity base class to

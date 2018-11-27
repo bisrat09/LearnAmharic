@@ -1,3 +1,13 @@
+/** SettingsPrefActivity.java
+ * included to support the settings tab implementation
+ * no user preference function needed in the current version of the app
+ * Extends the AppCompatPreferenceActivity base class to load settings fragment
+ * and use support bar action
+ * written by bisrat belayneh
+ * Date 11/26/2018
+ */
+
+
 package com.example.bisrat.myamharicapp;
 
 import android.content.Context;
@@ -24,7 +34,7 @@ public class SettingsPrefActivity extends AppCompatPreferenceActivity {
         getFragmentManager().beginTransaction().replace(android.R.id.content,
                 new MainPreferenceFragment()).commit();
     }
-
+   // click listener for user to send feedback
     public static class MainPreferenceFragment extends PreferenceFragment {
         @Override
         public void onCreate(final Bundle savedInstanceState) {
@@ -49,49 +59,6 @@ public class SettingsPrefActivity extends AppCompatPreferenceActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
-   private static void bindPreferenceSummaryToValue(Preference preference) {
-        preference.setOnPreferenceChangeListener(sBindPreferenceSummaryToValueListener);
-
-        sBindPreferenceSummaryToValueListener.onPreferenceChange(preference,
-                PreferenceManager
-                        .getDefaultSharedPreferences(preference.getContext())
-                        .getString(preference.getKey(), ""));
-    }
-
-    /**
-     * A preference value change listener that updates the preference's summary
-     * to reflect its new value.*/
-
-    private static Preference.OnPreferenceChangeListener sBindPreferenceSummaryToValueListener =
-            new Preference.OnPreferenceChangeListener() {
-        @Override
-        public boolean onPreferenceChange(Preference preference, Object newValue) {
-            String stringValue = newValue.toString();
-
-            if (preference instanceof ListPreference) {
-                // For list preferences, look up the correct display value in
-                // the preference's 'entries' list.
-                ListPreference listPreference = (ListPreference) preference;
-                int index = listPreference.findIndexOfValue(stringValue);
-
-                // Set the summary to reflect the new value.
-                preference.setSummary(
-                        index >= 0
-                                ? listPreference.getEntries()[index]
-                                : null);
-
-            } else if (preference instanceof EditTextPreference) {
-                if (preference.getKey().equals("key_gallery_name")) {
-                    // update the changed gallery name to summary filed
-                    preference.setSummary(stringValue);
-                }
-            } else {
-                preference.setSummary(stringValue);
-            }
-            return true;
-        }
-    };
 
     /**
      * Email client intent to send support mail
