@@ -173,6 +173,7 @@ public class LessonActivity extends AppCompatActivity {
                 if (lessonNum == 1){
                     audioPrefix = "grt";
                     offset = 1;
+
                 }else if ( lessonNum == 2){
                     audioPrefix = "exp";
                     offset = 52;

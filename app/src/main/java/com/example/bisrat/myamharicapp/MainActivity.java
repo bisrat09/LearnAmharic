@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 "Family  |  ቤተሰብ","Weather  |  የአየር ሁኔታ"};
 
         icon = new int[]{
-                R.drawable.chat, R.drawable.expressions, R.drawable.five,
+                R.drawable.greeting, R.drawable.chat, R.drawable.numbers,
                 R.drawable.directions, R.drawable.travel, R.drawable.clock_yellow, R.drawable.calendar,
-                R.drawable.cloth,R.drawable.food_burger,R.drawable.preposition, R.drawable.verb, R.drawable.family,
+                R.drawable.tie,R.drawable.food_burger,R.drawable.pre_at, R.drawable.verb, R.drawable.family,
                 R.drawable.weather
         };
 

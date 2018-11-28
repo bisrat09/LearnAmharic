@@ -1,0 +1,456 @@
+<sentences>
+
+    <lesson id="1">
+        <sentence id="1" >
+            <english>Good Morning(male)</english>
+            <amharic>እንደምን አደርክ</amharic>
+            <!--<transliteration>endemin aderk</transliteration>-->
+            <audioFile>grt1.wav</audioFile>
+
+        </sentence>
+        <sentence id="2">
+            <english>Good Morning(female)</english>
+            <amharic>እንደምን አደርሽ</amharic>
+            <audioFile>grt2.wav</audioFile>
+            <!--<transliteration>endemin aderish</transliteration>-->
+        </sentence>
+        <sentence id="3">
+            <english>Good Morning(plural)</english>
+            <amharic>እንደምን አደራችሁ </amharic>
+            <audioFile>grt3.wav</audioFile>
+            <!--<transliteration>endemin aderachu</transliteration>-->
+        </sentence>
+        <sentence id="4">
+            <english>Good Afternoon(male)</english>
+            <amharic>እንደምን ዋልክ </amharic>
+            <audioFile>grt4.wav</audioFile>
+
+            <transliteration>endemin walik</transliteration>
+        </sentence>
+        <sentence id="5">
+            <english>Good Afternoon(female)</english>
+            <amharic>እንደምን ዋልሽ </amharic>
+            <audioFile>grt5.wav</audioFile>
+            <!--<transliteration>endemin walish</transliteration>-->
+        </sentence>
+
+    </lesson>
+    <!--***************************************************-->
+    <lesson id="2">
+    <sentence id="52">
+        <english>How is it?</english>
+        <amharic>እንዴት ነዉ?</amharic>
+        <audioFile>exp52.wav</audioFile>
+
+        <!--<transliteration>endet now</transliteration>-->
+    </sentence>
+
+    <sentence id="53">
+        <english>I am sorry/pardon me</english>
+        <amharic>ይቅርታ አድርጉልኝ</amharic>
+        <audioFile>exp53.wav</audioFile>
+       <!-- <transliteration>yikirta adirgulegn</transliteration>-->
+    </sentence>
+
+    <sentence id="54">
+        <english>I beg your pardon </english>
+        <amharic>ይቅርታ እጠይቃለሁ </amharic>
+        <audioFile>exp53.wav</audioFile>
+        <transliteration>yikirta iteyikalehu</transliteration>
+    </sentence>
+
+    <sentence id="55">
+        <english>welcome </english>
+        <amharic>እንኳን በሰላም መጡ</amharic>
+        <audioFile>exp54.wav</audioFile>
+        <!--<transliteration>enquan beselam metu</transliteration>-->
+    </sentence>
+
+    <sentence id="56">
+        <english>you came(male)</english>
+        <amharic>መጣህ</amharic>
+        <audioFile>exp55.wav</audioFile>
+       <!-- <transliteration>metah</transliteration>-->
+    </sentence>
+<!--*********************************************************-->
+</lesson>
+    <lesson id="3">
+    <sentence id="93">
+        <english>Zero</english>
+        <amharic>ዜሮ</amharic>
+        <audioFile>num93.wav</audioFile>
+       <!-- <transliteration>zero</transliteration>-->
+    </sentence>
+
+    <sentence id="94">
+        <english>One</english>
+        <amharic>አንድ</amharic>
+        <audioFile>num94.wav</audioFile>
+       <!-- <transliteration>ānid</transliteration>-->
+    </sentence>
+
+    <sentence id="95">
+        <english>Two</english>
+        <amharic>ሁሉት</amharic>
+        <audioFile>num95.wav</audioFile>
+        <!--<transliteration>hulet</transliteration>-->
+    </sentence>
+
+    <sentence id="96">
+        <english>Three</english>
+        <amharic>ሶስት</amharic>
+        <audioFile>num96.wav</audioFile>
+       <!-- <transliteration>sost</transliteration>-->
+    </sentence>
+
+    <sentence id="97">
+        <english>Four</english>
+        <amharic>አራት</amharic>
+        <audioFile>num97.wav</audioFile>
+       <!-- <transliteration>arat</transliteration>-->
+    </sentence>
+
+    </lesson>
+    <!--***************************************************-->
+    <lesson id="4">
+    <sentence id="119">
+        <english>North</english>
+        <amharic>ሰሜን</amharic>
+        <audioFile>dir119.wav</audioFile>
+        <!--<transliteration>semen</transliteration>-->
+    </sentence>
+
+    <sentence id="120">
+        <english>South</english>
+        <amharic>ደቡብ</amharic>
+        <audioFile>dir120.wav</audioFile>
+        <!--<transliteration>debub</transliteration>-->
+    </sentence>
+
+    <sentence id="121">
+        <english>East</english>
+        <amharic>ምስራቅ</amharic>
+        <audioFile>dir121.wav</audioFile>
+        <!--<transliteration>misrak</transliteration>-->
+    </sentence>
+
+    <sentence id="122">
+        <english>West</english>
+        <amharic>ምእራብ</amharic>
+        <audioFile>dir122.wav</audioFile>
+        <!--<transliteration>meerab</transliteration>-->
+    </sentence>
+
+    <sentence id="123">
+        <english>North East</english>
+        <amharic>ሰሜን ምስራቅ</amharic>
+        <audioFile>dir123.wav</audioFile>
+        <!--<transliteration> semen misrak</transliteration>-->
+    </sentence>
+
+    </lesson>
+    <!--***************************************************-->
+    <lesson id="5">
+    <sentence id="165">
+        <english>Map</english>
+        <amharic>ካርታ</amharic>
+        <audioFile>tra165.wav</audioFile>
+        <transliteration>karta</transliteration>
+    </sentence>
+    <sentence id="166">
+        <english>shown on Map</english>
+        <amharic>ካርታ ላይ </amharic>
+        <audioFile>tra166.wav</audioFile>
+        <transliteration>karta lie</transliteration>
+    </sentence>
+
+    <sentence id="167">
+        <english>Driving a car</english>
+        <amharic>መኪና መንዳት</amharic>
+        <audioFile>tra167.wav</audioFile>
+        <transliteration>mekina mendat </transliteration>
+    </sentence>
+
+    <sentence id="168">
+        <english>Bus stop</english>
+        <amharic>ፌርማታ</amharic>
+        <audioFile>tra168.wav</audioFile>
+        <transliteration>faermata</transliteration>
+    </sentence>
+
+    <sentence id="169">
+        <english>Train Station</english>
+        <amharic>ባቡር ጣቢያ</amharic>
+        <audioFile>tra169.wav</audioFile>
+        <transliteration>babur tabiya</transliteration>
+    </sentence>
+    </lesson>
+    <!--***************************************************-->
+    <lesson id="6">
+
+    <sentence id="192">
+        <english>Seconds</english>
+        <amharic>ሰከንዶች</amharic>
+        <audioFile>tym192.wav</audioFile>
+        <transliteration>sekenidochi</transliteration>
+    </sentence>
+    <sentence id="193">
+        <english>minutes</english>
+        <amharic>ደቂቃዎች</amharic>
+        <audioFile>tym193.wav</audioFile>
+        <transliteration>dek’īk’awochi</transliteration>
+    </sentence>
+    <sentence id="194">
+        <english>Hours</english>
+        <amharic>ሰዓታት</amharic>
+        <audioFile>tym194.wav</audioFile>
+        <transliteration>se‘atat</transliteration>
+    </sentence>
+    <sentence id="195">
+        <english>Day</english>
+        <amharic>ቀን</amharic>
+        <audioFile>tym195.wav</audioFile>
+        <transliteration>k’eni</transliteration>
+    </sentence>
+    <sentence id="196">
+        <english>Night</english>
+        <amharic>ለሊት</amharic>
+        <audioFile>tym196.wav</audioFile>
+        <transliteration>lelīti</transliteration>
+    </sentence>
+    </lesson>
+    <!--***************************************************-->
+    <lesson id="7">
+    <sentence id="219" >
+        <english>Monday</english>
+        <amharic>ሰኞ</amharic>
+        <audioFile>day219.wav</audioFile>
+        <transliteration>Segnyo </transliteration>
+    </sentence>
+    <sentence id="220">
+        <english>Tuesday</english>
+        <amharic>ማክሰኞ</amharic>
+        <audioFile>day220.wav</audioFile>
+        <transliteration>makisegnyo</transliteration>
+    </sentence>
+    <sentence id="221">
+        <english>Wednesday</english>
+        <amharic>እሮብ</amharic>
+        <audioFile>day221.wav</audioFile>
+        <transliteration>irob</transliteration>
+    </sentence>
+    <sentence id= "222">
+        <english>Thursday</english>
+        <amharic> ሐሙስ</amharic>
+        <audioFile>day222.wav</audioFile>
+        <transliteration>ḥāmusi</transliteration>
+    </sentence>
+    <sentence id="223" >
+        <english> Friday</english>
+        <amharic>አርብ</amharic>
+        <audioFile>day232.wav</audioFile>
+        <transliteration>āribi</transliteration>
+    </sentence>
+    </lesson>
+    <!--******************************************-->
+    <lesson id="8">
+    <sentence id="238">
+        <english>clothing</english>
+        <amharic>ልብስ</amharic>
+        <audioFile>cloz238.wav</audioFile>
+        <transliteration>libis</transliteration>
+    </sentence>
+    <sentence id="239">
+        <english>Laundry</english>
+        <amharic>ልብስ ማጠቢያ</amharic>
+        <audioFile>cloz239.wav</audioFile>
+        <transliteration>libisi mat’ebīya</transliteration>
+    </sentence>
+    <sentence id="240">
+        <english>Pants</english>
+        <amharic>ሱሪ</amharic>
+        <audioFile>cloz240.wav</audioFile>
+        <transliteration>suri</transliteration>
+    </sentence>
+    <sentence id="241">
+        <english>Eyeglasses</english>
+        <amharic>መነጽር</amharic>
+        <audioFile>cloz241.wav</audioFile>
+        <transliteration>menetsir</transliteration>
+    </sentence>
+    <sentence id="242">
+        <english>Sunglasses</english>
+        <amharic>የፀሐይ መነፅር</amharic>
+        <audioFile>cloz242.wav</audioFile>
+        <transliteration>yetseḥayi menetsir</transliteration>
+    </sentence>
+    </lesson>
+    <!--************************************************************-->
+    <lesson id="9">
+    <sentence id="290">
+        <english>Apple</english>
+        <amharic>ፖም</amharic>
+        <audioFile>fud290.wav</audioFile>
+        <transliteration>pom</transliteration>
+    </sentence>
+    <sentence id="291">
+        <english>Banana</english>
+        <amharic>ሙዝ</amharic>
+        <audioFile>fud291.wav</audioFile>
+        <transliteration>mooz</transliteration>
+    </sentence>
+    <sentence id="292">
+        <english>Beans</english>
+        <amharic>ባቄላ</amharic>
+        <audioFile>fud292.wav</audioFile>
+        <transliteration>bak’ēla</transliteration>
+    </sentence>
+    <sentence id="293">
+        <english>Beef</english>
+        <amharic>ስጋ</amharic>
+        <audioFile>fud293.wav</audioFile>
+        <transliteration>siga</transliteration>
+    </sentence>
+    <sentence id="294">
+        <english>Beets</english>
+        <amharic>ቀይስር</amharic>
+        <audioFile>fud294.wav</audioFile>
+        <transliteration>qeysir</transliteration>
+    </sentence>
+    </lesson>
+    <!--******************************************-->
+    <lesson id="10">
+    <sentence id="362">
+        <english>For</english>
+        <amharic>ለ</amharic>
+        <audioFile>prep362.wav</audioFile>
+        <transliteration>le</transliteration>
+    </sentence>
+    <sentence id="363">
+        <english>For her</english>
+        <amharic>ለእሷ</amharic>
+        <audioFile>prep363.wav</audioFile>
+        <transliteration>le’iswa</transliteration>
+    </sentence>
+    <sentence id="364">
+        <english>On</english>
+        <amharic>ላይ</amharic>
+        <audioFile>prep364.wav</audioFile>
+        <transliteration>layi</transliteration>
+    </sentence>
+    <sentence id="365">
+        <english>On the table</english>
+        <amharic>ጠረጴዛው ላይ</amharic>
+        <audioFile>prep365.wav</audioFile>
+        <transliteration>terebezaw layi</transliteration>
+    </sentence>
+    <sentence id="366">
+        <english>When</english>
+        <amharic>መቼ</amharic>
+        <audioFile>prep366.wav</audioFile>
+        <transliteration>mechē</transliteration>
+    </sentence>
+    </lesson>
+    <!--******************************************************-->
+    <lesson id="11">
+    <sentence id="436">
+        <english>accept</english>
+        <amharic>መቀበል</amharic>
+        <audioFile>verb436.wav</audioFile>
+        <transliteration>meqebel</transliteration>
+    </sentence>
+    <sentence id="437">
+        <english>allow</english>
+        <amharic>መፍቀድ</amharic>
+        <audioFile>verb437.wav</audioFile>
+        <transliteration>mefqed</transliteration>
+    </sentence>
+    <sentence id="438">
+        <english>believe</english>
+        <amharic>ማመን</amharic>
+        <audioFile>verb438.wav</audioFile>
+        <transliteration>mamen</transliteration>
+    </sentence>
+    <sentence id="439">
+        <english>borrow</english>
+        <amharic>መበደር</amharic>
+        <audioFile>verb439.wav</audioFile>
+        <transliteration>mebeder</transliteration>
+    </sentence>
+    <sentence id="440">
+        <english>break</english>
+        <amharic>መስበር</amharic>
+        <audioFile>verb440.wav</audioFile>
+        <transliteration>mesber</transliteration>
+    </sentence>
+    </lesson>
+    <!--***********************************************-->
+    <lesson id="12">
+    <sentence id="525">
+        <english>Aunt</english>
+        <amharic>አክስት</amharic>
+        <audioFile>fam525.wav</audioFile>
+        <transliteration>akist</transliteration>
+    </sentence>
+    <sentence id="526">
+        <english>Brother</english>
+        <amharic>ወንድም</amharic>
+        <audioFile>fam526.wav</audioFile>
+        <transliteration>wendim</transliteration>
+    </sentence>
+    <sentence id="527">
+        <english>Brother-in-law</english>
+        <amharic>የእህት ባል/የሚስት ወንድም</amharic>
+        <audioFile>fam527.wav</audioFile>
+        <transliteration>ye’ihit bali/yemīsit wenidim</transliteration>
+    </sentence>
+    <sentence id="528">
+        <english>Children</english>
+        <amharic>ልጆች</amharic>
+        <audioFile>fam528.wav</audioFile>
+        <transliteration>lijoch</transliteration>
+    </sentence>
+    <sentence id="529">
+        <english>Cousin</english>
+        <amharic>ያክስት ልጅ/የአጎት ልጅ</amharic>
+        <audioFile>fam529.wav</audioFile>
+        <transliteration>ye akist lij/ye agot lij</transliteration>
+    </sentence>
+    </lesson>
+    <!--*************************************************************-->
+    <lesson id="13">
+    <sentence id="549">
+        <english>lightning</english>
+        <amharic>መብረቅ</amharic>
+        <audioFile>wea549.wav</audioFile>
+        <transliteration>mebrek</transliteration>
+    </sentence>
+    <sentence id="550">
+        <english>heat</english>
+        <amharic>ሙቀት</amharic>
+        <audioFile>wea550.wav</audioFile>
+        <transliteration>muket</transliteration>
+    </sentence>
+    <sentence id="551">
+        <english>warmer</english>
+        <amharic>ሞቃት</amharic>
+        <audioFile>wea551.wav</audioFile>
+        <transliteration>mokat</transliteration>
+    </sentence>
+    <sentence id="552">
+        <english>wind Storm</english>
+        <amharic>አውሎ ነፋስ</amharic>
+        <audioFile>wea552.wav</audioFile>
+        <transliteration> </transliteration>
+    </sentence>
+    <sentence id="553">
+        <english>cold weather</english>
+        <amharic>ቀዝቃዛ አየር</amharic>
+        <audioFile>wea553.wav</audioFile>
+        <transliteration>k’ezik’aza āyer</transliteration>
+    </sentence>
+    </lesson>
+    <!--***************************************************************-->
+
+
+</sentences>
