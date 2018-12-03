@@ -2,7 +2,9 @@
 /**
  * MainActivity.java is the point of entry to the app.
  * The first program to run when app is launched.
- * Parent class to all other activities
+ * Defines lesson titles and icons to display
+ * Creates a list of model objects ,add them to adapter
+   and pass it to the list view
  * Extends the AppCompatActivity base class to
    use the action bar features of support library
  * written by bisrat belayneh
@@ -40,14 +42,15 @@ public class MainActivity extends AppCompatActivity {
 
         title = new String[]{"Greetings  |  ሰላምታ", "Expressions  |  አባባሎች", "Numbers  |  ቁጥሮች",
                 "Directions  |  አቅጣጫ", "Travel  |  ጉዞ", "Time  |  ጊዜ", "Days & Months  |  ቀናት እና ወራት",
-                "Clothing  |  አልባሳት", "Food  |  ምግብ", "Prepositions  |  መስተዋድድ","Verbs  |  ግሶች",
+                "Clothing  |  አልባሳት", "Food  |  ምግብ","In The House  |  ቤት ውስጥ",
+                "Prepositions  |  መስተዋድድ","Pronouns  |  ተውላጠ ስም","Verbs  |  ግሶች",
                 "Family  |  ቤተሰብ","Weather  |  የአየር ሁኔታ"};
 
         icon = new int[]{
                 R.drawable.greeting, R.drawable.chat, R.drawable.numbers,
                 R.drawable.directions, R.drawable.travel, R.drawable.clock_yellow, R.drawable.calendar,
-                R.drawable.tie,R.drawable.food_burger,R.drawable.pre_at, R.drawable.verb, R.drawable.family,
-                R.drawable.weather
+                R.drawable.tie,R.drawable.food_burger,R.drawable.house,R.drawable.pre_at,
+                R.drawable.pronoun,R.drawable.verb, R.drawable.family, R.drawable.weather
         };
 
         listView = findViewById(R.id.listView);

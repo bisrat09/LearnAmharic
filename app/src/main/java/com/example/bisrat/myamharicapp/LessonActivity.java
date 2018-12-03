@@ -133,6 +133,16 @@ public class LessonActivity extends AppCompatActivity {
                     audioOnly.add(audioName);
                 }
             }
+             else if(lessonNum == 14) {
+                if( audioName.startsWith("hom")){
+                    audioOnly.add(audioName);
+                }
+            }
+            else if(lessonNum == 15) {
+                if( audioName.startsWith("pron")){
+                    audioOnly.add(audioName);
+                }
+            }
 
         }
 
@@ -210,6 +220,12 @@ public class LessonActivity extends AppCompatActivity {
                 }else if ( lessonNum == 13){
                     audioPrefix = "wea";
                     offset = 549;
+                }else if ( lessonNum == 14) {
+                    audioPrefix = "hom";
+                    offset = 577;
+                }else if ( lessonNum == 15) {
+                    audioPrefix = "pron";
+                    offset = 623;
                 }
                 // clear media player for use
                 if (mPlayer != null){

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sentences>
-
     <lesson id="1">
         <sentence id="1" >
             <english>Good Morning(male)</english>
@@ -3098,147 +3097,473 @@
     <!--******************end of weather*******************-->
     <lesson id="14">
         <sentence id="577">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Attic</english>
+            <amharic>ቆጥ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="578">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Backyard</english>
+            <amharic>ጓሮ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="579">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Bathroom</english>
+            <amharic>መታጠቢያ ቤት</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="580">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Bed</english>
+            <amharic>አልጋ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="581">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Bed Sheets</english>
+            <amharic>አንሶላ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="582">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Bedroom</english>
+            <amharic>መኝታ ቤት</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="583">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Blanket</english>
+            <amharic>ብርድ ልብስ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="584">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Cabinet</english>
+            <amharic>ኮመዲኖ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="585">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Chair</english>
+            <amharic>ወንበር</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="586">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Computer</english>
+            <amharic>ኮምፒተር</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="587">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Couch/Sofa</english>
+            <amharic>ሶፋ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="588">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Ceiling</english>
+            <amharic>ኮርኒስ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="589">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Curtain</english>
+            <amharic>መጋረጃ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="590">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Cutting Board</english>
+            <amharic>መክተፊያ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="591">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Door</english>
+            <amharic>በር</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="592">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Drawer</english>
+            <amharic>መሳቢያ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="593">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Fridge</english>
+            <amharic>ፍሪጅ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="594">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Glass Cup</english>
+            <amharic>ብርጭቆ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="595">
-            <english> </english>
-            <amharic> </amharic>
+            <english>House</english>
+            <amharic>ቤት</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="596">
-            <english> </english>
-            <amharic> </amharic>
+            <english>kitchen</english>
+            <amharic>ኩሽና</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="597">
-            <english> </english>
-            <amharic> </amharic>
+            <english>kinfe</english>
+            <amharic>ቢላዋ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="598">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Laptop</english>
+            <amharic>ላፕቶፕ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="599">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Living Room</english>
+            <amharic>ሳሎን</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="600">
-            <english> </english>
-            <amharic> </amharic>
+            <english>lamp</english>
+            <amharic>መብራት</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="601">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Mattress</english>
+            <amharic>ፍራሽ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="602">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Phone</english>
+            <amharic>ስልክ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="603">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Pillow</english>
+            <amharic>ትራስ</amharic>
             <transliteration> </transliteration>
         </sentence>
         <sentence id="604">
-            <english> </english>
-            <amharic> </amharic>
+            <english>Plate</english>
+            <amharic>ሳህን</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="605">
+        <english>pot</english>
+        <amharic>ድስት</amharic>
+        <transliteration> </transliteration>
+        </sentence>
+
+        <sentence id="606">
+            <english>Radio</english>
+            <amharic>ሬዲዮ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="607">
+            <english>Roof</english>
+            <amharic>ጣራ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="608">
+            <english>Room</english>
+            <amharic>ክፍል</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="609">
+            <english>Scale</english>
+            <amharic>ሚዛን</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="610">
+            <english>Scissors</english>
+            <amharic>መቀስ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="611">
+            <english>Shelf</english>
+            <amharic>መደርደሪያ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="612">
+            <english>Spoon</english>
+            <amharic>ማንኪያ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="613">
+            <english>Stairs</english>
+            <amharic>ደረጃ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="614">
+            <english>Stool</english>
+            <amharic>በርጩማ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="615">
+            <english>Stove</english>
+            <amharic>ምድጃ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="616">
+            <english>Strainer</english>
+            <amharic>ማጥለያ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="617">
+            <english>TV</english>
+            <amharic>ቲቪ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="618">
+            <english>Table</english>
+            <amharic>ጠረጼዛ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="619">
+            <english>Tea Kettle</english>
+            <amharic>ማንቆርቆሪያ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="620">
+        <english>Wall</english>
+        <amharic>ግድግዳ</amharic>
+        <transliteration> </transliteration>
+         </sentence>
+        <sentence id="621">
+            <english>Window</english>
+            <amharic>መስኮት</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="622">
+            <english>Wodden Chair</english>
+            <amharic>የእንጨት ወንበር</amharic>
             <transliteration> </transliteration>
         </sentence>
 
-    </lesson>-->
+    </lesson>
+    <!--****************end of home ********************-->
+    <lesson id="15">
+        <sentence id="623">
+            <english>I</english>
+            <amharic>እኔ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="624">
+            <english>you(male)</english>
+            <amharic>አንተ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="625">
+            <english>you(female)</english>
+            <amharic>አንቺ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="626">
+            <english>you(many)</english>
+            <amharic>አናንተ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="627">
+            <english>he</english>
+            <amharic>እሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="628">
+            <english>she</english>
+            <amharic>እሷ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="629">
+            <english>it</english>
+            <amharic>እሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="630">
+            <english>we</english>
+            <amharic>እኛ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="631">
+            <english>they</english>
+            <amharic>እነሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="632">
+            <english>for Me</english>
+            <amharic>ለኔ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="633">
+            <english>for him</english>
+            <amharic>ለእርሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="634">
+            <english>for her</english>
+            <amharic>ለእሷ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="635">
+            <english>for us</english>
+            <amharic>ለእኛ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="636">
+            <english>for them</english>
+            <amharic>ለእነሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="637">
+            <english>for her</english>
+            <amharic>ለሷ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="638">
+            <english>ours</english>
+            <amharic>የእኛ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="639">
+            <english>theirs</english>
+            <amharic>የእነሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="640">
+            <english>this</english>
+            <amharic>ይሄ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="641">
+            <english>that</english>
+            <amharic>ያ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="642">
+            <english>these</english>
+            <amharic>እነዚህ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="643">
+            <english>those</english>
+            <amharic>እነዚያ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="644">
+            <english>mine</english>
+            <amharic>የእኔ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="645">
+            <english>his</english>
+            <amharic>የእሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="646">
+            <english>hers</english>
+            <amharic>የእሷ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="647">
+            <english>yours</english>
+            <amharic>የእርስዎ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="648">
+            <english>theirs</english>
+            <amharic>የእነሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="649">
+            <english>who</english>
+            <amharic>ማን</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="650">
+            <english>whom</english>
+            <amharic>ማን</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="651">
+            <english>whose</english>
+            <amharic>የማ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+
+        <sentence id="652">
+            <english>which</english>
+            <amharic>የትኛው</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="653">
+            <english>whoever</english>
+            <amharic>ማንም</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="654">
+            <english>whatever</english>
+            <amharic>ምንም</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="655">
+            <english>whichever</english>
+            <amharic>የትኛውም</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="656">
+            <english>whomever</english>
+            <amharic>የማንም</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="657">
+            <english>what</english>
+            <amharic>ምንድን</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="658">
+            <english>myself</english>
+            <amharic>እኔ ራሴ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="659">
+            <english>yourself(male)</english>
+            <amharic>እራስህ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="660">
+            <english>yourself(female)</english>
+            <amharic>እራስሽ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="661">
+            <english>yourself(many)</english>
+            <amharic>እራስዎ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="662">
+            <english>himself</english>
+            <amharic>እራሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="663">
+            <english>herself</english>
+            <amharic>እራሷ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="664">
+            <english>itself</english>
+            <amharic>በራሱ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="665">
+            <english>ourselves</english>
+            <amharic>እኛ ራሳችን</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="666">
+            <english>themselves</english>
+            <amharic>እራሳቸው</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="667">
+            <english>each other</english>
+            <amharic>እርስ በእርሳ</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+        <sentence id="668">
+            <english>one another</english>
+            <amharic>አንዱ ለሌላው</amharic>
+            <transliteration> </transliteration>
+        </sentence>
+
+    </lesson>
 
 </sentences>
 

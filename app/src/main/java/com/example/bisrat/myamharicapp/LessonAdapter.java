@@ -1,8 +1,9 @@
 
 /** LessonAdapter.java
- * displays the details of the a particular lesson in a separate screen
- * receives the lesson number from mainActivity,
- * Extends the ArrayAdapter base class to
+ * defines text views in a view holder to speed up population of the views
+ * Populate the data from the data object via the viewHolder object
+    into the template view.
+ * Extends the ArrayAdapter base with sentence object
    use the action bar features of support library
  * written by bisrat belayneh
  * Date 11/26/2018

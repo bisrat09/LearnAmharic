@@ -194,6 +194,20 @@ public class MainAdapter extends BaseAdapter {
                     intent.putExtra("LESSON_NUMBER",13);
                     mContext.startActivity(intent);
                 }
+                if (modellist.get(position).getTitle().equals("In The House  |  ቤት ውስጥ")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    intent.putExtra("actionBarTitle", "In The House");
+                    intent.putExtra("LESSON_NUMBER",14);
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(position).getTitle().equals("Pronouns  |  ተውላጠ ስም")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    intent.putExtra("actionBarTitle", "Pronouns");
+                    intent.putExtra("LESSON_NUMBER",15);
+                    mContext.startActivity(intent);
+                }
 
 
             }
