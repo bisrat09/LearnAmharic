@@ -11,6 +11,7 @@
 package com.example.bisrat.myamharicapp;
 
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -105,105 +106,106 @@ public class MainAdapter extends BaseAdapter {
             public void onClick(View view) {
                 if (modellist.get(position).getTitle().equals("Greetings  |  ሰላምታ")){
                     //start new activity with title for actionBar and text for text view
-                    Intent intent = new Intent (mContext,LessonActivity.class);
+                    //Intent intent = new Intent (mContext,LessonActivity.class);
+                    Intent intent = new Intent (mContext,MenuActivity.class);
                     intent.putExtra("actionBarTitle","Greetings");
                     intent.putExtra("LESSON_NUMBER",1);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Expressions  |  አባባሎች")){
                     //start new activity with title for actionBar and text for text view
-                    Intent intent = new Intent (mContext,LessonActivity.class);
+                    Intent intent = new Intent (mContext,MenuActivity.class);
                     intent.putExtra("actionBarTitle","Expressions");
                     intent.putExtra("LESSON_NUMBER",2);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Numbers  |  ቁጥሮች")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("actionBarTitle", "Numbers");
                     intent.putExtra("LESSON_NUMBER",3);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Directions  |  አቅጣጫ")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("actionBarTitle", "Directions");
                     intent.putExtra("LESSON_NUMBER",4);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Travel  |  ጉዞ")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("actionBarTitle", "Travel");
                     intent.putExtra("LESSON_NUMBER",5);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Time  |  ጊዜ")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("actionBarTitle", "Time");
                     intent.putExtra("LESSON_NUMBER",6);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Days & Months  |  ቀናት እና ወራት")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("actionBarTitle", "Days and Months");
                     intent.putExtra("LESSON_NUMBER",7);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Clothing  |  አልባሳት")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("LESSON_NUMBER",8);
                     intent.putExtra("actionBarTitle", "Clothing");
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Food  |  ምግብ")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("LESSON_NUMBER",9);
                     intent.putExtra("actionBarTitle", "Food");
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Prepositions  |  መስተዋድድ")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("LESSON_NUMBER",10);
                     intent.putExtra("actionBarTitle", "Prepositions");
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Verbs  |  ግሶች")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("actionBarTitle", "Verbs");
                     intent.putExtra("LESSON_NUMBER",11);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Family  |  ቤተሰብ")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("actionBarTitle", "Family");
                     intent.putExtra("LESSON_NUMBER",12);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Weather  |  የአየር ሁኔታ")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("actionBarTitle", "Weather");
                     intent.putExtra("LESSON_NUMBER",13);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("In The House  |  ቤት ውስጥ")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext, MenuActivity.class);
                     intent.putExtra("actionBarTitle", "In The House");
                     intent.putExtra("LESSON_NUMBER",14);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(position).getTitle().equals("Pronouns  |  ተውላጠ ስም")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, LessonActivity.class);
+                    Intent intent = new Intent(mContext,MenuActivity.class);
                     intent.putExtra("actionBarTitle", "Pronouns");
                     intent.putExtra("LESSON_NUMBER",15);
                     mContext.startActivity(intent);

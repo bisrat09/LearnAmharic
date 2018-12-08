@@ -57,11 +57,14 @@ public class LessonActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String mactionBarTitle =intent.getStringExtra("actionBarTitle");
         lessonNum = getIntent().getExtras().getInt("LESSON_NUMBER");
-        arrayList = new ArrayList<String>();
 
         // set action bar title
         actionBar.setTitle(mactionBarTitle);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+
+        arrayList = new ArrayList<String>();
         // parse the data and load it to arrayList
         parseXML();
         // make a list for each type of sentence
@@ -336,6 +339,11 @@ public class LessonActivity extends AppCompatActivity {
         }
 
         return sentences;
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 
 }

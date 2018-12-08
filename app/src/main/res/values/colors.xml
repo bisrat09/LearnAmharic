@@ -3,4 +3,9 @@
     <color name="colorPrimary">#ff5a0b</color>
     <color name="colorPrimaryDark">#e96831</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorBackgroundQuiz">#f9f1e3</color>
+    <color name="colorTextQuizButton">#ccdef1</color>
+    <color name="colorBackgroundMenu">#f1ede9</color>
+    <color name="colorWhite">#efebe9</color>
+
 </resources>

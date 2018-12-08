@@ -4,12 +4,13 @@
 
     <application
         android:allowBackup="true"
-
-        android:label="@string/app_name"
         android:icon="@drawable/ic_launcher_gold_horse"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,9 +19,27 @@
         </activity>
         <activity
             android:name=".LessonActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=
+                "com.example.bisrat.myamharicapp.MenuActivity"/>
+         </activity>
+        <activity
+            android:name=".SettingsPrefActivity"
+            android:label="Settings"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity" />
-
-        <activity android:name=".SettingsPrefActivity"
+        <activity android:name=".QuizActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MenuActivity"/>
+        <activity android:name=".MenuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity"></activity>
     </application>
 

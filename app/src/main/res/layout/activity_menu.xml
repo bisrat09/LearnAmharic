@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding = "10dp"
+    android:background="@color/colorBackgroundMenu"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/show_all_icon"
+            android:layout_width="90dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="70dp"
+            android:padding="3dp"
+            android:src="@drawable/egg" />
+
+        <TextView
+            android:id="@+id/showall_button"
+            android:layout_width="383dp"
+            android:layout_height="238dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="70dp"
+            android:onClick="launchLessonActivity"
+            android:text="New to Amharic? \nShow all"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <View
+        android:layout_width="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/quiz_icon"
+            android:layout_width="90dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="15dp"
+            android:padding="3dp"
+            android:src="@drawable/quiz" />
+
+        <TextView
+            android:id="@+id/quiz_button"
+            android:layout_width="383dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:onClick="launchQuizActivity"
+            android:text="Already know some? \nShow Quiz"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
