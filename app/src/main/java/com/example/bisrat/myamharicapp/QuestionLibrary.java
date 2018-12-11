@@ -38,7 +38,9 @@ public class QuestionLibrary {
         if (mQuestions == null || questionNum < 0 || mQuestions.size() <= questionNum ){
             return "";
         }
-        return mQuestions.get(questionNum);
+        String question = "translate the word/phrase " +  "\n" + "   " + '"'  +
+                mQuestions.get(questionNum) + '"';
+        return question;
     }
 
       public int getRandomQuestionIndex( Activity activity){
@@ -93,8 +95,8 @@ public class QuestionLibrary {
             //Log.i("DEBUG",  "mQuestion.size()=  "+ String.valueOf(mQuestions.size()));
             Collections.shuffle(choiceRow);
         }
-            String question = "Translate " + "\n" + mQuestions.get(0);
-            Log.i("DEBUG", "question= " + question);
+
+          //  Log.i("DEBUG", "question= " + question);
 
 
           return 0;

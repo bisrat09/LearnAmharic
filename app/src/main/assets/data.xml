@@ -1231,7 +1231,7 @@
         <sentence id="210">
             <english>Last Year</english>
             <amharic>ባለፈው ዓመት</amharic>
-            <transliteration></transliteration>
+            <transliteration>balefew amet</transliteration>
         </sentence>
         <sentence id="211">
             <english>Next Week</english>
@@ -2183,12 +2183,12 @@
         <sentence id="397">
             <english>Above</english>
             <amharic>በላይ</amharic>
-            <transliteration>belayi</transliteration>
+            <transliteration>belay</transliteration>
         </sentence>
         <sentence id="398">
             <english>Above all</english>
             <amharic>ከሁሉም በላይ</amharic>
-            <transliteration>kehulumi belayi</transliteration>
+            <transliteration>kehulumi belay</transliteration>
         </sentence>
         <sentence id="399">
             <english>Around</english>
@@ -2203,7 +2203,7 @@
         <sentence id="401">
             <english>Near/next to</english>
             <amharic>አጠገብ</amharic>
-            <transliteration></transliteration>
+            <transliteration>ategeb</transliteration>
         </sentence>
         <sentence id="402">
             <english>Near the post office</english>
@@ -2971,7 +2971,7 @@
         <sentence id="552">
             <english>wind Storm</english>
             <amharic>አውሎ ነፋስ</amharic>
-            <transliteration> </transliteration>
+            <transliteration>awlo nifas</transliteration>
         </sentence>
         <sentence id="553">
             <english>cold weather</english>
@@ -3237,9 +3237,9 @@
             <transliteration>sahin</transliteration>
         </sentence>
         <sentence id="605">
-        <english>pot</english>
-        <amharic>ድስት</amharic>
-        <transliteration>dist</transliteration>
+            <english>pot</english>
+            <amharic>ድስት</amharic>
+            <transliteration>dist</transliteration>
         </sentence>
 
         <sentence id="606">
@@ -3434,7 +3434,7 @@
         <sentence id="643">
             <english>those</english>
             <amharic>እነዚያ</amharic>
-            <transliteration> </transliteration>
+            <transliteration>enezya</transliteration>
         </sentence>
         <sentence id="644">
             <english>mine</english>
@@ -3444,7 +3444,7 @@
         <sentence id="645">
             <english>his</english>
             <amharic>የእሱ</amharic>
-            <transliteration> </transliteration>
+            <transliteration>ye-esu</transliteration>
         </sentence>
         <sentence id="646">
             <english>hers</english>

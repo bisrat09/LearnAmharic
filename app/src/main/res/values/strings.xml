@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Qalat</string>
+    <string name="app_name">Kalat</string>
     <string name="author_Title">Developer</string>
     <string name="app_version">2.0</string>
     <string name="summary_about"> MyAmharicPal is a free Amharic language learning android application
@@ -8,7 +8,7 @@
 </string>
     <string name="storage_title">Storage</string>
     <string name="scope_title">Scope</string>
-    <string name="Main_title">Categories</string>
+    <!--<string name="Main_title">Categories</string>-->
     <string name="author_name">Bisrat Belayneh\nbelayb@uw.edu</string>
     <string name="scope_summary">
     \nThis version provides translations for 668 phrases and words

@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle(R.string.Main_title);
+        actionBar.setTitle(R.string.app_name);
 
         title = new String[]{"Greetings  |  ሰላምታ", "Expressions  |  አባባሎች", "Numbers  |  ቁጥሮች",
                 "Directions  |  አቅጣጫ", "Travel  |  ጉዞ", "Time  |  ጊዜ", "Days & Months  |  ቀናት እና ወራት",
