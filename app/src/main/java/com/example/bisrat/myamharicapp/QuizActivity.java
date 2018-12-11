@@ -49,13 +49,14 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (mButtonChoice1.getText() == mAnswer){
+                    Toast.makeText(QuizActivity.this,"Correct",
+                            Toast.LENGTH_SHORT).show();
                     mScore = mScore + 1 ;
                     updateScore(mScore);
 
-                        updateQuestion();
+                    updateQuestion();
 
-                    Toast.makeText(QuizActivity.this,"Correct",
-                            Toast.LENGTH_SHORT).show();
+
                 } else {
                     Toast.makeText(QuizActivity.this,"Incorrect, try again",
                             Toast.LENGTH_SHORT).show();
@@ -70,10 +71,12 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (mButtonChoice2.getText() == mAnswer){
-                    mScore++;
-                    updateScore(mScore);
                     Toast.makeText(QuizActivity.this,"Correct",
                             Toast.LENGTH_SHORT).show();
+                    mScore++;
+                    updateScore(mScore);
+                    updateQuestion();
+
                 } else {
                     Toast.makeText(QuizActivity.this,"Incorrect, try again",
                             Toast.LENGTH_SHORT).show();
@@ -89,13 +92,14 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (mButtonChoice3.getText() == mAnswer){
+                    Toast.makeText(QuizActivity.this,"Correct",
+                            Toast.LENGTH_SHORT).show();
                     mScore = mScore + 1;
                     updateScore(mScore);
 
                       updateQuestion();
 
-                    Toast.makeText(QuizActivity.this,"Correct",
-                            Toast.LENGTH_SHORT).show();
+
                 } else {
                     Toast.makeText(QuizActivity.this,"Incorrect, try again",
                             Toast.LENGTH_SHORT).show();
@@ -112,13 +116,11 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (mButtonChoice4.getText() == mAnswer){
-                    mScore++;
-                    updateScore(mScore);
-
-                        updateQuestion();
-
                     Toast.makeText(QuizActivity.this,"Correct",
                             Toast.LENGTH_SHORT).show();
+                    mScore++;
+                    updateScore(mScore);
+                    updateQuestion();
                 } else {
                     Toast.makeText(QuizActivity.this,"Incorrect, try Again" ,
                             Toast.LENGTH_SHORT).show();
@@ -135,17 +137,21 @@ public class QuizActivity extends AppCompatActivity {
 
     }
     private void updateQuestion(){
-        if (mQuestionNumber < 15) {
-            mQuestionLibrary.setLessonNum(this.lessonNum);
-            mQuestionView.setText(mQuestionLibrary.getQuestion(this, mQuestionNumber));
-            mButtonChoice1.setText(mQuestionLibrary.getChoice1(mQuestionNumber));
-            mButtonChoice2.setText(mQuestionLibrary.getChoice2(mQuestionNumber));
-            mButtonChoice3.setText(mQuestionLibrary.getChoice3(mQuestionNumber));
-            mButtonChoice4.setText(mQuestionLibrary.getChoice4(mQuestionNumber));
+        //int listIndex = (mQuestionNumber % 15);
 
-            mAnswer = mQuestionLibrary.getCorrectAnswer(mQuestionNumber);
+       // if (mQuestionNumber < 15) {
+       // int correctIndex = mQuestionNumber;
+            mQuestionLibrary.setLessonNum(this.lessonNum);
+        int correctIndex = mQuestionLibrary.getRandomQuestionIndex(this);
+            mQuestionView.setText(mQuestionLibrary.getQuestion(correctIndex));
+            mButtonChoice1.setText(mQuestionLibrary.getChoice1(correctIndex));
+            mButtonChoice2.setText(mQuestionLibrary.getChoice2(correctIndex));
+            mButtonChoice3.setText(mQuestionLibrary.getChoice3(correctIndex));
+            mButtonChoice4.setText(mQuestionLibrary.getChoice4(correctIndex));
+
+            mAnswer = mQuestionLibrary.getCorrectAnswer(correctIndex);
             mQuestionNumber++;
-        }
+      //  }
 
     }
 

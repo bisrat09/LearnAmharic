@@ -34,7 +34,14 @@ public class QuestionLibrary {
     ArrayList<String> amharicOnly = new ArrayList<String>();
     ArrayList<String> transliterationOnly = new ArrayList<String>();
 
-      public String getQuestion( Activity activity, int questionNum){
+    public String getQuestion( int questionNum){
+        if (mQuestions == null || questionNum < 0 || mQuestions.size() <= questionNum ){
+            return "";
+        }
+        return mQuestions.get(questionNum);
+    }
+
+      public int getRandomQuestionIndex( Activity activity){
 
         if ( parseAgain) {
             parseXML(activity);
@@ -45,15 +52,15 @@ public class QuestionLibrary {
                 amharicOnly.add(sentence.amharic);
                 transliterationOnly.add(sentence.transliteration);
             }
-            //Log.i("DEBUG", "transliterationSize =  " + String.valueOf(transliterationOnly.size()));
+            Log.i("DEBUG", "englishOnlySize =  " + String.valueOf(englishOnly.size()));
         }
         parseAgain = false;
 
 
         int  listSize = englishOnly.size();
         Random rand  = new Random();
-        int randomIndex;
-
+        int randomIndex = 0;
+          Log.i("DEBUG", " random index " + randomIndex + " listSize " + listSize);
 
        mQuestions.clear();
        mChoices.clear();
@@ -62,13 +69,13 @@ public class QuestionLibrary {
 
             int minIndex = 5;
             randomIndex = minIndex + rand.nextInt(listSize - minIndex);
-            Log.i("DEBUG", " random index " + randomIndex + " listSize " + listSize);
+           Log.i("DEBUG", " random index " + randomIndex + " listSize " + listSize);
 
             mQuestions.add(englishOnly.get(randomIndex));
 
-            Log.i("DEBUG", "mQuestions =  " + String.valueOf(mQuestions.size()));
+           // Log.i("DEBUG", "mQuestions =  " + String.valueOf(mQuestions.size()));
             mCorrectAnswers.add(transliterationOnly.get(randomIndex));
-            Log.i("DEBUG", "mCorrectAnswers.size()=  " + String.valueOf(mCorrectAnswers.size()));
+           // Log.i("DEBUG", "mCorrectAnswers.size()=  " + String.valueOf(mCorrectAnswers.size()));
             ArrayList<String> choiceRow = new ArrayList<String>();
             //for (int j = 0; j < 4; j++ ) {
 
@@ -86,11 +93,11 @@ public class QuestionLibrary {
             //Log.i("DEBUG",  "mQuestion.size()=  "+ String.valueOf(mQuestions.size()));
             Collections.shuffle(choiceRow);
         }
-            String question = "Translate " + "\n" + mQuestions.get(questionNum);
+            String question = "Translate " + "\n" + mQuestions.get(0);
             Log.i("DEBUG", "question= " + question);
 
 
-          return question;
+          return 0;
     }
 
     public String getChoice1(int questionNum){

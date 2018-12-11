@@ -55,9 +55,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:background="@color/colorTextQuizButton"
+        android:background="@drawable/rounded_button"
         android:padding="8dp"
         android:text="choice1"
+
         android:textAppearance="@style/TextAppearance.AppCompat.Menu"
         android:textSize="18sp" />
 
@@ -66,7 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:background="@color/colorTextQuizButton"
+        android:background="@drawable/rounded_button"
         android:padding="8dp"
         android:text="choice2"
         android:textAppearance="@style/TextAppearance.AppCompat.Menu"
@@ -77,7 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:background="@color/colorTextQuizButton"
+        android:background="@drawable/rounded_button"
         android:padding="8dp"
         android:text="choice3"
         android:textAppearance="@style/TextAppearance.AppCompat.Menu"
@@ -88,7 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:background="@color/colorTextQuizButton"
+        android:background="@drawable/rounded_button"
         android:padding="8dp"
         android:text="choice4"
         android:textAppearance="@style/TextAppearance.AppCompat.Menu"
